@@ -1,0 +1,88 @@
+#+LATEX: \setcounter{secnumdepth}{0}
+#+OPTIONS: toc:nil
+#+EXPORT_SELECT_TAGS:
+#+EXPORT_EXCLUDE_TAGS: detail
+
+Curriculum Vitae 
+* Education
+** Acedemic Qualifications
+*** University of Huddersfield, England
+BSc Software Development \& Multimedia (1st Class), 2008
+*** Huddersfield Technical College 
+Diploma, Access Studies (Computing/Maths/Chemistry), 2004
+*** Salendine Nook High School
+8 GCSEs (Grades A-C), 1998
+** Professional Qualifications
+*** Microsoft Certified Systems Engineer
+Networking Essentials, 2000
+* Technical Summary
+** Languages / Frameworks
+Clojure, C\#, Java, Javascript, Python, Bash, SQL, HTML, HAML, CSS, SASS, ASP.NET(MVC), .NET, Silverlight, jQuery, Django, Cocoa, Objective-C, AppleScript, Tex/laTex
+** Operating Systems, Software and Tech 
+Linux, OS X, Windows (NT/2000/XP/Sever/Vista/7), Vim, Visual Studio, Netbeans, Eclipse, Git, Mercurial, Subversion, Maven, Puppet, Apache, IIS, Lighttpd, Nginx, MongoDB, SQLite, MySQL, PostgreSQL, SQL Server, Flash, Photoshop, Illustrator, VMWare, MS Exchange
+* Experience
+** Software Developer: Interel
+- Puppet deployment
+- Delivered a moderately customised implementation of an "XWiki Farm". [Java/J2EE/Clojure]
+- helpdesk.mail [Clojure/SOAP/Exchange Web Services API]
+- Reporting [C#/Clojure/Incanter/Crystal Reports]
+- Client Wins [C#/ASP.NET MVC/Javascript/T-SQL]
+- Tickets [C#/ASP.NET MVC/Javascript/T-SQL]
+- Inventory [C#/ASP.NET MVC/Javascript/T-SQL]
+- TAPI Monitor [TAPI/C#/.NET]
+- Maintenance of the company Intranet [VB.NET/Javascript]
+- Profiling Intranet
+- Business Objects/AnalytiX
+** Sales Assistant: Gamestation
+** Shift Manager: Allied Leisure
+** Insurance Assistant: Fartown Insurance
+** Computer Technician: Easy Computers
+#*** Projects
+#:detail:
+#**** European Affairs Monitoring Tool
+#The European Affairs depatment wanted us to implement a software tool that would add significant value to their EU policy monitoring service so that they could sell the service as a commodity.
+#We saw that we could get most of the required functionality using the open source XWiki, and with some modifications we could probably hit all of their wish-list in a short time.
+#***** Delivery!
+#The original project was delivered on-time. The first client to use the system agreed to be a beta-tester, and we refined many of the features to his taste.
+#***** Customizations
+#Besides the original modifications to the "content" of the software, I.E., the layout, the organisation, and the look, certain parts of the system needed to be changed so that they would be "user-friendly" for their clients.
+#****** Watchlist
+#******* Styling
+#The existing plugin for change notification was really built for technical users who would understand a "diff". Changes were needed to the template, and to the source code itself to give a "user-friendly" view of changes.
+#******* Filtering
+#This included filtering the watchlist to only send notifications relevant to the client.
+#****** Auth
+#******* IP based authentication
+#One rather large client wanted the application to be seamlessly integrated with his organasation's intranet. To do this, we needed to enable the possiblity for multiple authentication methods, specifically: IP address restriction, and password form auth.
+#****** Skin
+#****** Deployment
+#****** Distributions/Builds
+#**** Helpdesk
+#***** Email checker
+#****** Were having problems with the Exchange-push/windows service going down.
+#Since I was writing stuff in clojure we moved it to cron based poll of emails using SOAP/EWS from java/clojure
+#***** TAPI Monitor
+#.Net
+#***** Web Interface
+#.Net MVC
+#***** Reporting
+#Originally using Crystal Reports, but that was overkill & waste of money so I moved it to Clojure/Incanter
+#**** Puppet?
+#***** Mapping existing network
+#***** Creating deployable "appliances"
+#**** Intranet
+#***** Wins
+#***** Reporting
+#***** Debugging/Profiling - Speed
+#**** AnalytiX/Business Objects
+#*** Technologies Used
+* Personal Projects
+** Mail.app plugin
+Certain things bugged me about Mail.app, however it seems to be the most usable (to me) mail client. Customisations such as Vim keybindings, automatic reply-to addresses.
+** NSTextField VIM
+** iCal delete event
+As iCal refuses to decline events without notifying all attendees, I jerry-rigged a solution using the java EWS API and a bit of AppleScript to give the option to simply delete the event from the calendar.
+** dirtybrussels.be
+Although the site never really took off (someone beat me to the idea by a fortnight with a facebook group), dirtybrussels was an attempt to shame the various communes in Brussels to clean up their act. Written in Clojure.
+** koala
+Koala started life as a way to use haml in Clojure/Compojure. After a while I decided that I preferred the composability of Hiccup, a similar but more Clojure-like HTML generating DSL. As standard though, hiccup must be compiled before use. Koala allowed me to edit/refresh much quicker as it would generate HTML on the fly, using the Hiccup libraries. I also then added the option to include javascript into the pages.
