@@ -1,9 +1,36 @@
-#+LATEX: \setcounter{secnumdepth}{0}
-#+OPTIONS: toc:nil
-#+EXPORT_SELECT_TAGS:
+#+OPTIONS: toc:nil timestamp:nil num:nil
+#+TITLE:
+#+AUTHOR:
+#+DATE:
 #+EXPORT_EXCLUDE_TAGS: detail
 
-Curriculum Vitae 
+#+LaTeX_HEADER: \newcommand{\name}{Andrew Mcveigh}
+#+LaTeX_HEADER: \newcommand{\street}{Sint-Gilliskerkstraat 57}
+#+LaTeX_HEADER: \newcommand{\city}{1000 Brussels}
+#+LaTeX_HEADER: \newcommand{\country}{Belgium}
+#+LaTeX_HEADER: \newcommand{\phone}{+32 497 471 609}
+#+LaTeX_HEADER: \newcommand{\email}{me@andrewmcveigh.com}
+#+LaTeX_HEADER: \newcommand{\web}{www.andrewmcveigh.com}
+#+LaTeX_HEADER: \newcommand{\twitter}{twitter.com/andrewmcveigh}
+#+LaTeX_HEADER: \newcommand{\github}{github.com/andrewmcveigh}
+
+#+LaTeX_HEADER: \usepackage{geometry}
+#+LaTeX_HEADER: \geometry{a4paper,tmargin=10mm,bmargin=30mm,lmargin=20mm,rmargin=20mm,headheight=0mm,headsep=0mm,footskip=10mm}
+
+#+LaTeX_HEADER: \usepackage{fancyhdr,lastpage}
+#+LaTeX_HEADER: \pagestyle{fancy}
+#+LaTeX_HEADER: \fancyhf{}
+#+LaTeX_HEADER: \rfoot{\scriptsize{Page \thepage\ of \pageref{LastPage}}}
+#+LaTeX_HEADER: \renewcommand\headrulewidth{0pt}
+
+Andrew Mcveigh
+#+LaTex: \vspace{-1pt} {\small\itshape \street \hfill \email}\\
+#+LaTex: \vspace{-1pt} {\small\itshape \city \hfill \web}\\
+#+LaTex: \vspace{-1pt} {\small\itshape \country \hfill \twitter}\\
+#+LaTex: \vspace{-1pt} {\small\itshape \phone \hfill \github}
+#+LaTex: \vspace{-8pt} \rule{\textwidth}{1pt}
+
+
 * Education
 ** Acedemic Qualifications
 *** University of Huddersfield, England
@@ -18,10 +45,10 @@ Networking Essentials, 2000
 * Technical Summary
 ** Languages / Frameworks
 Clojure, C\#, Java, Javascript, Python, Bash, SQL, HTML, HAML, CSS, SASS, ASP.NET(MVC), .NET, Silverlight, jQuery, Django, Cocoa, Objective-C, AppleScript, Tex/laTex
-** Operating Systems, Software and Tech 
+** Operating Systems, Software and Technologies 
 Linux, OS X, Windows (NT/2000/XP/Sever/Vista/7), Vim, Visual Studio, Netbeans, Eclipse, Git, Mercurial, Subversion, Maven, Puppet, Apache, IIS, Lighttpd, Nginx, MongoDB, SQLite, MySQL, PostgreSQL, SQL Server, Flash, Photoshop, Illustrator, VMWare, MS Exchange
 * Experience
-** Software Developer: Interel
+** Software Developer: Interel Group, Brussels
 - Puppet deployment
 - Delivered a moderately customised implementation of an "XWiki Farm". [Java/J2EE/Clojure]
 - helpdesk.mail [Clojure/SOAP/Exchange Web Services API]
@@ -33,49 +60,52 @@ Linux, OS X, Windows (NT/2000/XP/Sever/Vista/7), Vim, Visual Studio, Netbeans, E
 - Maintenance of the company Intranet [VB.NET/Javascript]
 - Profiling Intranet
 - Business Objects/AnalytiX
+*** Projects :detail:
+**** European Affairs Monitoring Tool
+The European Affairs depatment wanted us to implement a software tool that would add significant value to their EU policy monitoring service so that they could sell the service as a commodity.
+We saw that we could get most of the required functionality using the open source XWiki, and with some modifications we could probably hit all of their wish-list in a short time.
+***** Delivery!
+The original project was delivered on-time. The first client to use the system agreed to be a beta-tester, and we refined many of the features to his taste.
+***** Customizations
+Besides the original modifications to the "content" of the software, I.E., the layout, the organisation, and the look, certain parts of the system needed to be changed so that they would be "user-friendly" for their clients.
+****** Watchlist
+******* Styling
+The existing plugin for change notification was really built for technical users who would understand a "diff". Changes were needed to the template, and to the source code itself to give a "user-friendly" view of changes.
+******* Filtering
+This included filtering the watchlist to only send notifications relevant to the client.
+****** Auth
+******* IP based authentication
+One rather large client wanted the application to be seamlessly integrated with his organasation's intranet. To do this, we needed to enable the possiblity for multiple authentication methods, specifically: IP address restriction, and password form auth.
+****** Skin
+****** Deployment
+****** Distributions/Builds
+**** Helpdesk
+***** Email checker
+****** Were having problems with the Exchange-push/windows service going down.
+Since I was writing stuff in clojure we moved it to cron based poll of emails using SOAP/EWS from java/clojure
+***** TAPI Monitor
+.Net
+***** Web Interface
+.Net MVC
+***** Reporting
+Originally using Crystal Reports, but that was overkill & waste of money so I moved it to Clojure/Incanter
+**** Puppet?
+***** Mapping existing network
+***** Creating deployable "appliances"
+**** Intranet
+***** Wins
+***** Reporting
+***** Debugging/Profiling - Speed
+**** AnalytiX/Business Objects
+**** Technologies Used
 ** Sales Assistant: Gamestation
+Duties/responsibilities: staff training, stock control, cashing up, banking, administration, and customer service.
 ** Shift Manager: Allied Leisure
+Duties/responsibilities: staff management, staff training, stock control, ordering, cashing up, banking, loss control, administration, and customer service.
 ** Insurance Assistant: Fartown Insurance
+Duties/responsibilities: customer quotations, renewals, developing and maintaining the company website, other general administration duties.
 ** Computer Technician: Easy Computers
-#*** Projects
-#:detail:
-#**** European Affairs Monitoring Tool
-#The European Affairs depatment wanted us to implement a software tool that would add significant value to their EU policy monitoring service so that they could sell the service as a commodity.
-#We saw that we could get most of the required functionality using the open source XWiki, and with some modifications we could probably hit all of their wish-list in a short time.
-#***** Delivery!
-#The original project was delivered on-time. The first client to use the system agreed to be a beta-tester, and we refined many of the features to his taste.
-#***** Customizations
-#Besides the original modifications to the "content" of the software, I.E., the layout, the organisation, and the look, certain parts of the system needed to be changed so that they would be "user-friendly" for their clients.
-#****** Watchlist
-#******* Styling
-#The existing plugin for change notification was really built for technical users who would understand a "diff". Changes were needed to the template, and to the source code itself to give a "user-friendly" view of changes.
-#******* Filtering
-#This included filtering the watchlist to only send notifications relevant to the client.
-#****** Auth
-#******* IP based authentication
-#One rather large client wanted the application to be seamlessly integrated with his organasation's intranet. To do this, we needed to enable the possiblity for multiple authentication methods, specifically: IP address restriction, and password form auth.
-#****** Skin
-#****** Deployment
-#****** Distributions/Builds
-#**** Helpdesk
-#***** Email checker
-#****** Were having problems with the Exchange-push/windows service going down.
-#Since I was writing stuff in clojure we moved it to cron based poll of emails using SOAP/EWS from java/clojure
-#***** TAPI Monitor
-#.Net
-#***** Web Interface
-#.Net MVC
-#***** Reporting
-#Originally using Crystal Reports, but that was overkill & waste of money so I moved it to Clojure/Incanter
-#**** Puppet?
-#***** Mapping existing network
-#***** Creating deployable "appliances"
-#**** Intranet
-#***** Wins
-#***** Reporting
-#***** Debugging/Profiling - Speed
-#**** AnalytiX/Business Objects
-#*** Technologies Used
+Duties/responsibilities: build, repair, update and install home computers, on-site network installation and maintenance.
 * Personal Projects
 ** Mail.app plugin
 Certain things bugged me about Mail.app, however it seems to be the most usable (to me) mail client. Customisations such as Vim keybindings, automatic reply-to addresses.
