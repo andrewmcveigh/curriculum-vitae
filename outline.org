@@ -1,6 +1,6 @@
 #+OPTIONS: toc:nil timestamp:nil num:nil
 #+TITLE:
-#+AUTHOR:
+#+AUTHOR: Andrew Mcveigh
 #+DATE:
 #+EXPORT_EXCLUDE_TAGS: detail
 
@@ -15,51 +15,48 @@
 #+LaTeX_HEADER: \newcommand{\github}{github.com/andrewmcveigh}
 
 #+LaTeX_HEADER: \usepackage{geometry}
-#+LaTeX_HEADER: \geometry{a4paper,tmargin=10mm,bmargin=30mm,lmargin=20mm,rmargin=20mm,headheight=0mm,headsep=0mm,footskip=10mm}
+#+LaTeX_HEADER: \geometry{a4paper,tmargin=50mm,bmargin=30mm,lmargin=25mm,rmargin=25mm,headheight=30mm,headsep=20mm,footskip=10mm}
 
 #+LaTeX_HEADER: \usepackage{fancyhdr,lastpage}
 #+LaTeX_HEADER: \pagestyle{fancy}
 #+LaTeX_HEADER: \fancyhf{}
+#+LaTeX_HEADER: \lhead{\small\itshape\email\\\web\\\twitter\\\github}
+#+LaTeX_HEADER: \chead{\large\name}
+#+LaTeX_HEADER: \rhead{\small\street\\\city\\\country\\\phone}
 #+LaTeX_HEADER: \rfoot{\scriptsize{Page \thepage\ of \pageref{LastPage}}}
 #+LaTeX_HEADER: \renewcommand\headrulewidth{0pt}
-
-Andrew Mcveigh
-#+LaTex: \vspace{-1pt} {\small\itshape \street \hfill \email}\\
-#+LaTex: \vspace{-1pt} {\small\itshape \city \hfill \web}\\
-#+LaTex: \vspace{-1pt} {\small\itshape \country \hfill \twitter}\\
-#+LaTex: \vspace{-1pt} {\small\itshape \phone \hfill \github}
-#+LaTex: \vspace{-8pt} \rule{\textwidth}{1pt}
 
 
 * Education
 ** Acedemic Qualifications
 *** University of Huddersfield, England
-BSc Software Development \& Multimedia (1st Class), 2008
+BSc Software Development & Multimedia (1st Class), 2008
 *** Huddersfield Technical College 
 Diploma, Access Studies (Computing/Maths/Chemistry), 2004
 *** Salendine Nook High School
 8 GCSEs (Grades A-C), 1998
 ** Professional Qualifications
 *** Microsoft Certified Systems Engineer
-Networking Essentials, 2000
+    Networking Essentials, 2000
 * Technical Summary
 ** Languages / Frameworks
-Clojure, C\#, Java, Javascript, Python, Bash, SQL, HTML, HAML, CSS, SASS, ASP.NET(MVC), .NET, Silverlight, jQuery, Django, Cocoa, Objective-C, AppleScript, Tex/laTex
+Clojure, C#, Java, Javascript, Python, Bash, SQL, HTML, HAML, CSS, SASS, ASP.NET(MVC), .NET, Silverlight, jQuery, Django, Cocoa, Objective-C, AppleScript, Tex/laTex
 ** Operating Systems, Software and Technologies 
 Linux, OS X, Windows (NT/2000/XP/Sever/Vista/7), Vim, Visual Studio, Netbeans, Eclipse, Git, Mercurial, Subversion, Maven, Puppet, Apache, IIS, Lighttpd, Nginx, MongoDB, SQLite, MySQL, PostgreSQL, SQL Server, Flash, Photoshop, Illustrator, VMWare, MS Exchange
 * Experience
 ** Software Developer: Interel Group, Brussels
-- Puppet deployment
-- Delivered a moderately customised implementation of an "XWiki Farm". [Java/J2EE/Clojure]
-- helpdesk.mail [Clojure/SOAP/Exchange Web Services API]
-- Reporting [C#/Clojure/Incanter/Crystal Reports]
-- Client Wins [C#/ASP.NET MVC/Javascript/T-SQL]
-- Tickets [C#/ASP.NET MVC/Javascript/T-SQL]
-- Inventory [C#/ASP.NET MVC/Javascript/T-SQL]
-- TAPI Monitor [TAPI/C#/.NET]
+Hired as a helpdesk/software developer student placement, later offered a full-time position as a software developer. Now responsible for the design, development, and maintenance of all the group's software infrastructure.
+- Delivered a customised implementation of an "XWiki Farm". [Java/J2EE/Clojure]
+- Client Wins: Simple CRUD webapp with Javascript image editor [C#/ASP.NET MVC/Javascript/T-SQL]
+- Helpdesk ticketing webapp. [C#/ASP.NET MVC/Javascript/T-SQL]
+- helpdesk.mail: Monitors an Exchange mailbox for emails, adds a logs in the ticketing system. [Clojure/SOAP/Exchange Web Services API]
+- Inventory tracking webapp, integrated with the Intranet, and the ticketing system. [C#/ASP.NET MVC/Javascript/T-SQL]
+- TAPI Monitor: Monitors a VOIP extention for incoming calls, looks up caller from called id, logs in ticketing system. [TAPI/C#/.NET]
 - Maintenance of the company Intranet [VB.NET/Javascript]
-- Profiling Intranet
-- Business Objects/AnalytiX
+- Building reports on various existing databases. [C#/Crystal Reports/Clojure/Incanter]
+- Financial report building [Business Objects/AnalytiX]
+- Distributed configuration managment of various *NIX based servers. [Puppet]
+- Various scripting/sysadmin tasks [Bash/Python/*NIX]
 *** Projects :detail:
 **** European Affairs Monitoring Tool
 The European Affairs depatment wanted us to implement a software tool that would add significant value to their EU policy monitoring service so that they could sell the service as a commodity.
@@ -106,7 +103,7 @@ Duties/responsibilities: staff management, staff training, stock control, orderi
 Duties/responsibilities: customer quotations, renewals, developing and maintaining the company website, other general administration duties.
 ** Computer Technician: Easy Computers
 Duties/responsibilities: build, repair, update and install home computers, on-site network installation and maintenance.
-* Personal Projects
+* Personal Projects :detail:
 ** Mail.app plugin
 Certain things bugged me about Mail.app, however it seems to be the most usable (to me) mail client. Customisations such as Vim keybindings, automatic reply-to addresses.
 ** NSTextField VIM
