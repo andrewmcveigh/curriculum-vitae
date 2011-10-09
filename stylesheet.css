@@ -1,0 +1,46 @@
+/* line 7, stylesheet.sass */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Times, Serif;
+  font-weight: normal;
+}
+
+/* line 11, stylesheet.sass */
+h1 {
+  font-size: 218%;
+  padding-top: 0.5em;
+}
+
+/* line 16, stylesheet.sass */
+h2 {
+  border-top: 4px solid #aaaaaa !important;
+  font-size: 164%;
+  margin-top: 1em;
+  padding-top: 2em;
+}
+
+/* line 27, stylesheet.sass */
+div#outline-container-1 h2:first-child {
+  border: none !important;
+}
+
+/* line 30, stylesheet.sass */
+h3 {
+  border-top: 4px solid #e0e0e0 !important;
+  font-size: 145%;
+  padding-top: 0.5em;
+}
+
+/* line 37, stylesheet.sass */
+h4 {
+  font-size: 118%;
+}
+
+/* line 40, stylesheet.sass */
+body {
+  background-color: #f8f8f8;
+  color: #333333;
+  font: 20px "Times";
+  height: 100%;
+  line-height: normal;
+  overflow-y: scroll;
+}
