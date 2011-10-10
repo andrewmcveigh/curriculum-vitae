@@ -8,34 +8,35 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 218%;
   padding-top: 0.5em;
+  text-align: center;
 }
 
-/* line 12, stylesheet.sass */
+/* line 13, stylesheet.sass */
 h2 {
-  border-top: 4px solid #aaaaaa !important;
+  border-top: 4px solid #aaaaaa;
   font-size: 164%;
   margin-top: 1em;
   padding-top: 2em;
 }
 
-/* line 22, stylesheet.sass */
+/* line 23, stylesheet.sass */
 div#outline-container-1 h2:first-child {
-  border: none !important;
+  border: none;
 }
 
-/* line 25, stylesheet.sass */
+/* line 26, stylesheet.sass */
 h3 {
-  border-top: 4px solid #e0e0e0 !important;
+  border-top: 4px solid #e0e0e0;
   font-size: 145%;
   padding-top: 0.5em;
 }
 
-/* line 32, stylesheet.sass */
+/* line 33, stylesheet.sass */
 h4 {
   font-size: 118%;
 }
 
-/* line 35, stylesheet.sass */
+/* line 36, stylesheet.sass */
 body {
   background-color: #f8f8f8;
   color: #333333;
@@ -45,8 +46,8 @@ body {
   overflow-y: scroll;
 }
 
-/* line 43, stylesheet.sass */
+/* line 44, stylesheet.sass */
 .author {
-  border: none !important;
+  border: none;
   text-align: center;
 }

@@ -7,6 +7,7 @@
 #+BIND: org-export-html-auto-postamble nil
 #+BIND: org-export-html-auto-preamble nil
 #+BIND: org-export-html-preamble "<h1 class='title'>Curriculum Vitae</h1><h3 class='author'>Andrew Mcveigh</h3>"
+#+BIND: org-export-html-style-include-default nil
 
 #+STYLE: <link rel="stylesheet" type="text/css" href="stylesheet.css" />
 
@@ -28,6 +29,7 @@
 #+LaTeX_HEADER: \rhead{\small\name\\\street\\\citycountry\\\phone\\\\\email\\\web}
 #+LaTeX_HEADER: \rfoot{\scriptsize{Page \thepage\ of \pageref{LastPage}}}
 #+LaTeX_HEADER: \renewcommand\headrulewidth{0pt}
+
 
 * Education
 ** Acedemic Qualifications

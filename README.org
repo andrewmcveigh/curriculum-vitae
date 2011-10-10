@@ -1,11 +1,13 @@
 #+OPTIONS: toc:nil timestamp:nil num:nil postamble:nil
-#+TITLE:
+#+TITLE: 
 #+AUTHOR: Andrew Mcveigh
 #+DATE:
 #+EXPORT_EXCLUDE_TAGS: detail
 
 #+BIND: org-export-html-auto-postamble nil
-#+BIND: org-export-html-preamble "test"
+#+BIND: org-export-html-auto-preamble nil
+#+BIND: org-export-html-preamble "<h1 class='title'>Curriculum Vitae</h1><h3 class='author'>Andrew Mcveigh</h3>"
+#+BIND: org-export-html-style-include-default nil
 
 #+STYLE: <link rel="stylesheet" type="text/css" href="stylesheet.css" />
 
@@ -28,10 +30,6 @@
 #+LaTeX_HEADER: \rfoot{\scriptsize{Page \thepage\ of \pageref{LastPage}}}
 #+LaTeX_HEADER: \renewcommand\headrulewidth{0pt}
 
-#+LaTeX: \title{\vspace{-10mm}\textnf{Curriculum Vitae}}
-#+LaTeX: \maketitle
-
-
 
 * Education
 ** Acedemic Qualifications
@@ -46,7 +44,7 @@
 - Networking Essentials, 2000
 * Technical Summary
 ** Languages / Frameworks
-Clojure, C#, Java, Javascript, Python, Bash, SQL, HTML, HAML, CSS, SASS, ASP.NET(MVC), .NET, Silverlight, jQuery, Django, Cocoa, Objective-C, AppleScript, Tex/laTex
+Clojure, C#, Java, Javascript, Python, Bash, SQL, HTML, HAML, CSS, SASS, ASP.NET(MVC), .NET, Silverlight, jQuery, Django, Cocoa, Objective-C, AppleScript, Tex
 ** Operating Systems, Software and Technologies 
 Linux, OS X, Windows (NT/2000/XP/Sever/Vista/7), Vim, Visual Studio, Netbeans, Eclipse, Git, Mercurial, Subversion, Maven, Puppet, Apache, IIS, Lighttpd, Nginx, MongoDB, SQLite, MySQL, PostgreSQL, SQL Server, Flash, Photoshop, Illustrator, VMWare, MS Exchange
 * Experience
@@ -54,15 +52,16 @@ Linux, OS X, Windows (NT/2000/XP/Sever/Vista/7), Vim, Visual Studio, Netbeans, E
 *** /Interel Group, Brussels  [2008 - Present]/
 Hired on an IT helpdesk/software development student placement, later offered a full-time position as a software developer. Now responsible for the design, development, and maintenance of all the group's software infrastructure.
 - Delivered a customised implementation of an "XWiki Farm". [Java/J2EE/Clojure]
-- Client Wins: Simple CRUD webapp with Javascript image editor [C#/ASP.NET MVC/Javascript/T-SQL]
-- Helpdesk ticketing webapp. [C#/ASP.NET MVC/Javascript/T-SQL]
-- helpdesk.mail: Monitors an Exchange mailbox for emails, adds a logs in the ticketing system. [Clojure/SOAP/Exchange Web Services API]
-- Inventory tracking webapp, integrated with the Intranet, and the ticketing system. [C#/ASP.NET MVC/Javascript/T-SQL]
-- TAPI Monitor: Monitors a VOIP extention for incoming calls, looks up caller from called id, logs in ticketing system. [TAPI/C#/.NET]
-- Maintenance of the company Intranet [VB.NET/Javascript]
+- Client Wins: CRUD webapp with Javascript image editor [Clojure/Javascript/jQuery]
+- Helpdesk email monitor: Monitors an Exchange mailbox for emails, adds an entry in the ticketing system. [Clojure/SOAP/Exchange Web Services API (Java)]
+- Helpdesk ticketing/inventory webapp. [C#/ASP.NET MVC/Javascript/jQuery/T-SQL]
+- Inventory tracking: Periodically scans the network for changes, integrated with the Intranet, and the ticketing system. [C#/WMI/T-SQL]
+- TAPI Monitor: Windows Service, monitoring a VOIP extention for incoming calls, looks up caller from called id, logs in ticketing system. [TAPI/C#/.NET/WCF]
+- Maintenance of the company Intranet [VB.NET/C#/Javascript]
 - Building reports on various existing databases. [C#/Crystal Reports/Clojure/Incanter]
-- Financial report building [Business Objects/AnalytiX]
+- Financial report building [Business Objects/Maconomy AnalytiX]
 - Distributed configuration managment of various *NIX based servers. [Puppet]
+- Implemented Maven build system [Maven/Nexus]
 - Various scripting/sysadmin tasks [Bash/Python/*NIX]
 *** Projects :detail:
 **** European Affairs Monitoring Tool
