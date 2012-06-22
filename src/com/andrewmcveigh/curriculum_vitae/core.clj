@@ -45,17 +45,15 @@
     (string/replace s #"([&%$#_\{\}~^\\])" "\\\\$1")
     #"\"([^\"]*)\"" "``$1''"))
 
+(defn filter-elems [element]
+  (map #(if (string? %) (escape-tex-str %) %)
+       (filter #(not (coll? %)) element)))
+
 (defn cv->tex [element]
   (let [level (cond 
-                (coll? element)   (let [elems (map #(if (string? %)
-                                                      (escape-tex-str %)
-                                                      %)
-                                                   (filter #(not (coll? %))
-                                                           element))
-                                        inner (filter coll? element)]
-                                    (apply list
-                                           (render-tex elems)
-                                           (map cv->tex inner)))
+                (coll? element)   (apply list
+                                         (render-tex (filter-elems element))
+                                         (map cv->tex (filter coll? element)))
                 (string? element) (escape-tex-str element)
                 :default          element)]
     (if (:begin (first level))
@@ -63,12 +61,11 @@
       (apply str level))))
 
 (defn tex->pdf []
-  (do
-    (spit "cv.tex"
-          (str
-            (slurp "tex-header.tex")
-            (cv->tex [:doc [:title] info/cv])))
-    (sh "pdflatex" "-interaction=batchmode" "cv.tex")))
+  (spit "cv.tex"
+        (str
+          (slurp "tex-header.tex")
+          (cv->tex [:doc [:title] info/cv])))
+  (sh "pdflatex" "-interaction=batchmode" "cv.tex"))
 
 (defn -main [& args]
   (spit "README.md" (cv->syntax info/cv :markdown))
