@@ -1,3 +1,7 @@
 *conflicted copy*
 *.*~
 .sass-cache*
+private
+target
+*.log
+*.aux

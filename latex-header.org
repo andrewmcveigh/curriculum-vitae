@@ -1,0 +1,31 @@
+#+OPTIONS: toc:nil timestamp:nil num:nil postamble:nil
+#+TITLE: Curriculum Vitae
+#+AUTHOR: Andrew Mcveigh
+#+DATE:
+#+EXPORT_EXCLUDE_TAGS: detail
+
+#+BIND: org-export-html-auto-postamble nil
+#+BIND: org-export-html-auto-preamble nil
+#+BIND: org-export-html-preamble "<h1 class='title'>Curriculum Vitae</h1><h3 class='author'>Andrew Mcveigh</h3>"
+#+BIND: org-export-html-style-include-default nil
+
+#+STYLE: <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+
+#+LaTeX_HEADER: \newcommand{\name}{Andrew Mcveigh}
+#+LaTeX_HEADER: \newcommand{\street}{Sint-Gilliskerkstraat 57}
+#+LaTeX_HEADER: \newcommand{\citycountry}{1000 Brussels, Belgium}
+#+LaTeX_HEADER: \newcommand{\phone}{+32.497.471.609}
+#+LaTeX_HEADER: \newcommand{\email}{me@andrewmcveigh.com}
+#+LaTeX_HEADER: \newcommand{\web}{www.andrewmcveigh.com}
+#+LaTeX_HEADER: \newcommand{\twitter}{twitter.com/andrewmcveigh}
+#+LaTeX_HEADER: \newcommand{\github}{github.com/andrewmcveigh}
+
+#+LaTeX_HEADER: \usepackage{geometry}
+#+LaTeX_HEADER: \geometry{a4paper,tmargin=50mm,bmargin=30mm,lmargin=25mm,rmargin=25mm,headheight=30mm,headsep=10mm,footskip=10mm}
+
+#+LaTeX_HEADER: \usepackage{fancyhdr,lastpage}
+#+LaTeX_HEADER: \pagestyle{fancyplain}
+#+LaTeX_HEADER: \fancyhf{}
+#+LaTeX_HEADER: \rhead{\small\name\\\street\\\citycountry\\\phone\\\\\email\\\web}
+#+LaTeX_HEADER: \rfoot{\scriptsize{Page \thepage\ of \pageref{LastPage}}}
+#+LaTeX_HEADER: \renewcommand\headrulewidth{0pt}

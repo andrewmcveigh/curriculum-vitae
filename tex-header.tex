@@ -1,0 +1,21 @@
+\documentclass{article}
+\newcommand{\name}{Andrew Mcveigh}
+\newcommand{\street}{Sint-Gilliskerkstraat 57}
+\newcommand{\citycountry}{1000 Brussels, Belgium}
+\newcommand{\phone}{+32.497.471.609}
+\newcommand{\email}{me@andrewmcveigh.com}
+\newcommand{\web}{www.andrewmcveigh.com}
+\newcommand{\twitter}{twitter.com/andrewmcveigh}
+\newcommand{\github}{github.com/andrewmcveigh}
+\usepackage{geometry}
+\geometry{a4paper,tmargin=50mm,bmargin=30mm,lmargin=25mm,rmargin=25mm,headheight=30mm,headsep=10mm,footskip=10mm}
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancyplain}
+\fancyhf{}
+\rhead{\small\name\\\street\\\citycountry\\\phone\\\\\email\\\web}
+\rfoot{\scriptsize{Page \thepage\ of \pageref{LastPage}}}
+\renewcommand\headrulewidth{0pt}
+
+\title{Curriculum Vitae}
+\author{Andrew Mcveigh}
+\date{}
