@@ -70,4 +70,5 @@
 (defn -main [& args]
   (spit "README.md" (cv->syntax info/cv :markdown))
   (spit "cv.org" (cv->syntax info/cv :org))
-  (tex->pdf))
+  (tex->pdf)
+  (println "Conversion Complete."))
