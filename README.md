@@ -43,6 +43,7 @@ Hired on an IT helpdesk/software development student placement, later offered a 
 - Building reports on various existing databases. [C#/Crystal Reports/Clojure/Incanter]
 - Financial report building [Business Objects/Maconomy AnalytiX]
 - Distributed configuration managment of various *NIX based servers. [Puppet]
+- Implemented Continuous integration system [Jenkins]
 - Implemented Maven build system [Maven/Nexus]
 - Various scripting/sysadmin tasks [Bash/Python/*NIX]
 

@@ -52,6 +52,7 @@
        [:li "Building reports on various existing databases. [C#/Crystal Reports/Clojure/Incanter]"]
        [:li "Financial report building [Business Objects/Maconomy AnalytiX]"]
        [:li "Distributed configuration managment of various *NIX based servers. [Puppet]"]
+       [:li "Implemented Continuous integration system [Jenkins]"]
        [:li "Implemented Maven build system [Maven/Nexus]"]
        [:li "Various scripting/sysadmin tasks [Bash/Python/*NIX]"]]]]
     [:h2 "Sales Assistant"

@@ -70,6 +70,7 @@
             (cv->tex [:doc [:title] info/cv])))
     (sh "pdflatex" "-interaction=batchmode" "cv.tex")))
 
-(spit "README.md" (cv->syntax info/cv :markdown))
-(spit "cv.org" (cv->syntax info/cv :org))
-(tex->pdf)
+(defn -main [& args]
+  (spit "README.md" (cv->syntax info/cv :markdown))
+  (spit "cv.org" (cv->syntax info/cv :org))
+  (tex->pdf))
