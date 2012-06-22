@@ -9,9 +9,9 @@
 
 (defn render-keyword [k syntax]
   (case k
-    :h1 (str "\n" (case syntax :org "* "   :markdown "# "))
-    :h2 (str "\n" (case syntax :org "** "  :markdown "## "))
-    :h3 (str "\n" (case syntax :org "*** " :markdown "### "))
+    :h1 (str "\n" (case syntax :org "* "   :markdown "\n# "))
+    :h2 (str "\n" (case syntax :org "** "  :markdown "\n## "))
+    :h3 (str "\n" (case syntax :org "*** " :markdown "\n### "))
     :li "\n- "
     :p  "\n"
     nil))
