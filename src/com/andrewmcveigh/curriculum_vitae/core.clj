@@ -60,18 +60,12 @@
       (str (:begin (first level)) (apply str (rest level)) (:end (first level)))
       (apply str level))))
 
-(defn tex->pdf []
-  (spit "cv.tex"
+(defn tex->pdf [file]
+  (spit file
         (str
           (slurp "tex-header.tex")
           (cv->tex [:doc [:title] info/cv])))
-  (sh "pdflatex" "-interaction=batchmode" "cv.tex"))
-
-(defn -main [& args]
-  (spit "README.md" (cv->syntax info/cv :markdown))
-  (spit "cv.org" (cv->syntax info/cv :org))
-  (tex->pdf)
-  (println "Conversion Complete."))
+  (sh "pdflatex" "-interaction=batchmode" file))
 
 (defn render-control [start elem end]
   (str (apply str start elem) end))
@@ -101,4 +95,9 @@
                               (map cv->rtf (filter coll? element)))
     :default           element))
 
-(spit "first.doc" (str (apply str rtf-header (flatten (cv->rtf info/cv))) \}))
+(defn -main [& args]
+  (spit "README.md" (cv->syntax info/cv :markdown))
+  (spit "andrew_mcveigh-cv.org" (cv->syntax info/cv :org))
+  (spit "andrew_mcveigh-cv.doc" (str (apply str rtf-header (flatten (cv->rtf info/cv))) \}))
+  (tex->pdf "andrew_mcveigh-cv.tex")
+  (println "Conversion Complete."))
