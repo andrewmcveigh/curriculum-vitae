@@ -3,82 +3,61 @@
 {\colortbl;\red255\green255\blue255;}
 {\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
 {\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
-\paperw11900\paperh16840\margl1440\margr1440\vieww9000\viewh8400\viewkind0
-\s1\sb0\sa240\b\f0\fs36Education\b0\par
-\s2\sb0\sa240\b\f0\fs30Academic Qualifications\b0\par
-\s1\sb0\sa240\b\i\f0\fs24University of Huddersfield, UK\i0\b0\par
+\paperw11900\paperh16960\margl1440\margr1440\margt200\margb200\vieww9000\viewh8400\viewkind0
+\s1\sb480\sa240\b\f0\fs32Education\b0\par
+\s2\sb320\sa180\b\f0\fs28Academic Qualifications\b0\par
+\s1\sb240\sa180\b\i\f0\fs24University of Huddersfield, UK\i0\b0\par
 \ls1\ilvl0
 \f0\fs24 \cf0 \pard\tx160\tx320\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li340\fi-340\ql\qnatural\pardirnatural
-\sb0\sa100\f0\fs20{\listtext\tab\bullet\tab}BSc Software Development & Multimedia (1st Class), 2008\
-\s1\sb0\sa240\b\i\f0\fs24Huddersfield Technical College\i0\b0\par
+\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}BSc Software Development & Multimedia (1st Class), 2008\
+\s1\sb240\sa180\b\i\f0\fs24Huddersfield Technical College\i0\b0\par
 \ls1\ilvl0
 \f0\fs24 \cf0 \pard\tx160\tx320\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li340\fi-340\ql\qnatural\pardirnatural
-\sb0\sa100\f0\fs20{\listtext\tab\bullet\tab}Diploma, Access Studies (Computing/Maths/Chemistry), 2004\
-\s1\sb0\sa240\b\i\f0\fs24Salendine Nook High School\i0\b0\par
+\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Diploma, Access Studies (Computing/Maths/Chemistry), 2004\
+\s1\sb240\sa180\b\i\f0\fs24Salendine Nook High School\i0\b0\par
 \ls1\ilvl0
 \f0\fs24 \cf0 \pard\tx160\tx320\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li340\fi-340\ql\qnatural\pardirnatural
-\sb0\sa100\f0\fs20{\listtext\tab\bullet\tab}8 GCSEs (Grades A-C), 1998\
-\s2\sb0\sa240\b\f0\fs30Professional Qualifications\b0\par
-\s1\sb0\sa240\b\i\f0\fs24Microsoft Certified Professional (Expired)\i0\b0\par
+\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}8 GCSEs (Grades A-C), 1998\
+\s2\sb320\sa180\b\f0\fs28Professional Qualifications\b0\par
+\s1\sb240\sa180\b\i\f0\fs24Microsoft Certified Professional (Expired)\i0\b0\par
 \ls1\ilvl0
 \f0\fs24 \cf0 \pard\tx160\tx320\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li340\fi-340\ql\qnatural\pardirnatural
-\sb0\sa100\f0\fs20{\listtext\tab\bullet\tab}Networking Essentials, 2000\
-\s1\sb0\sa240\b\f0\fs36Technical Summary\b0\par
-\s2\sb0\sa240\b\f0\fs30Languages / Frameworks\b0\par
-\pard\sb0\sa180\f0\fs20ASP.NET(MVC), AppleScript, Bash, C#, CSS, Clojure, ClojureScript, Cocoa, Django, HAML, HTML, Java, Javascript, MS.NET, Objective-C, Python, SASS, SQL, Silverlight, Tex, jQuery\par
-\s2\sb0\sa240\b\f0\fs30Operating Systems, Software & Technologies\b0\par
-\pard\sb0\sa180\f0\fs20Apache, Eclipse, Flash, Git, IIS, Illustrator, Jenkins, Leiningen, Lighttpd, Linux, MS Exchange, Maven, Mercurial, MongoDB, MySQL, Netbeans, Nginx, OS X, Photoshop, PostgreSQL, Puppet, SQL Server, SQLite, Subversion, VMWare, Vim, Visual Studio, Windows (NT/2000/XP/Server/7)\par
-\s1\sb0\sa240\b\f0\fs36Experience\b0\par
-\s2\sb0\sa240\b\f0\fs30Software Developer\b0\par
-\s1\sb0\sa240\b\i\f0\fs24Interel Group, Brussels  [2008 - Present]\i0\b0\par
-\pard\sb0\sa180\f0\fs20Hired on an IT helpdesk/software development student placement,
-          later offered a full-time position as a software developer. Now
-          responsible for the design, development, and maintenance of all the
-          group's software infrastructure.\par
+\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Networking Essentials, 2000\
+\s1\sb480\sa240\b\f0\fs32Technical Summary\b0\par
+\s2\sb320\sa180\b\f0\fs28Languages / Frameworks\b0\par
+\pard\sb0\sa0\f0\fs22ASP.NET(MVC), AppleScript, Bash, C#, CSS, Clojure, ClojureScript, Cocoa, Django, HAML, HTML, Java, Javascript, MS.NET, Objective-C, Python, SASS, SQL, Silverlight, Tex, jQuery\par
+\s2\sb320\sa180\b\f0\fs28Operating Systems, Software & Technologies\b0\par
+\pard\sb0\sa0\f0\fs22Apache, Eclipse, Flash, Git, IIS, Illustrator, Jenkins, Leiningen, Lighttpd, Linux, MS Exchange, Maven, Mercurial, MongoDB, MySQL, Netbeans, Nginx, OS X, Photoshop, PostgreSQL, Puppet, SQL Server, SQLite, Subversion, VMWare, Vim, Visual Studio, Windows (NT/2000/XP/Server/7)\par
+\s1\sb480\sa240\b\f0\fs32Experience\b0\par
+\s2\sb320\sa180\b\f0\fs28Software Developer\b0\par
+\s1\sb240\sa180\b\i\f0\fs24Interel Group, Brussels [2008 - Present]\i0\b0\par
+\pard\sb0\sa0\f0\fs22Hired on an IT helpdesk/software development student placement, later offered a full-time position as a software developer. Now responsible for the design, development, and maintenance of all the group's software infrastructure.\par
 \ls1\ilvl0
 \f0\fs24 \cf0 \pard\tx160\tx320\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li340\fi-340\ql\qnatural\pardirnatural
-\sb0\sa100\f0\fs20{\listtext\tab\bullet\tab}Created/Deployed "Webinars" system using "BigBlueButton" & a
-            custom scheduling webapp. [Java/Clojure]\
-\sb0\sa100\f0\fs20{\listtext\tab\bullet\tab}Delivered a customised implementation of an "XWiki Farm".
-            [Java/J2EE/Clojure]\
-\sb0\sa100\f0\fs20{\listtext\tab\bullet\tab}Client Wins: CRUD webapp with Javascript image editor
-            [Clojure/Javascript/jQuery]\
-\sb0\sa100\f0\fs20{\listtext\tab\bullet\tab}Helpdesk email monitor: Monitors an Exchange mailbox for emails,
-            adds an entry in the ticketing system.
-            [Clojure/SOAP/Exchange Web Services API (Java)]\
-\sb0\sa100\f0\fs20{\listtext\tab\bullet\tab}Helpdesk ticketing/inventory webapp.
-            [C#/ASP.NET MVC/Javascript/jQuery/T-SQL]\
-\sb0\sa100\f0\fs20{\listtext\tab\bullet\tab}Inventory tracking: Periodically scans the network for changes,
-            integrated with the Intranet, and the ticketing system.
-        [C#/WMI/T-SQL]\
-\sb0\sa100\f0\fs20{\listtext\tab\bullet\tab}TAPI Monitor: Windows Service, monitoring a VOIP extention for
-            incoming calls, looks up caller from called id, logs in ticketing
-            system. [TAPI/C#/.NET/WCF]\
-\sb0\sa100\f0\fs20{\listtext\tab\bullet\tab}Maintenance of the company Intranet [C#/Javascript]\
-\sb0\sa100\f0\fs20{\listtext\tab\bullet\tab}Building reports on various existing databases.
-            [C#/Crystal Reports/Clojure/Incanter]\
-\sb0\sa100\f0\fs20{\listtext\tab\bullet\tab}Financial report building [Business Objects/Maconomy AnalytiX]\
-\sb0\sa100\f0\fs20{\listtext\tab\bullet\tab}Distributed configuration managment of various *NIX based servers.
-            [Puppet]\
-\sb0\sa100\f0\fs20{\listtext\tab\bullet\tab}Implemented Continuous integration system [Jenkins]\
-\sb0\sa100\f0\fs20{\listtext\tab\bullet\tab}Implemented Maven build system [Maven/Nexus]\
-\sb0\sa100\f0\fs20{\listtext\tab\bullet\tab}Various scripting/sysadmin tasks [Bash/Python/*NIX]\
-\s2\sb0\sa240\b\f0\fs30Sales Assistant\b0\par
-\s1\sb0\sa240\b\i\f0\fs24Gamestation, Huddersfield [2005 - 2006]\i0\b0\par
-\pard\sb0\sa180\f0\fs20Duties/responsibilities: staff training, stock control, cashing up,
-          banking, administration, and customer service.\par
-\s2\sb0\sa240\b\f0\fs30Shift Manager\b0\par
-\s1\sb0\sa240\b\i\f0\fs24Allied Leisure, Huddersfield [2001 - 2004]\i0\b0\par
-\pard\sb0\sa180\f0\fs20Duties/responsibilities: staff management, staff training, stock
-          control, ordering, cashing up, banking, loss control, administration,
-          and customer service.\par
-\s2\sb0\sa240\b\f0\fs30Insurance Assistant\b0\par
-\s1\sb0\sa240\b\i\f0\fs24Fartown Insurance, Huddersfield [2000 - 2001]\i0\b0\par
-\pard\sb0\sa180\f0\fs20Duties/responsibilities: customer quotations, renewals, developing
-          and maintaining the company website, other general administration
-          duties.\par
-\s2\sb0\sa240\b\f0\fs30Computer Technician\b0\par
-\s1\sb0\sa240\b\i\f0\fs24Easy Computers, Huddersfield [1998 - 2000]\i0\b0\par
-\pard\sb0\sa180\f0\fs20Duties/responsibilities: build, repair, update and install home
-          computers, on-site network installation and maintenance.\par
+\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Created/Deployed "Webinars" system using "BigBlueButton" & a custom scheduling webapp. [Java/Clojure]\
+\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Delivered a customised implementation of an "XWiki Farm". [Java/J2EE/Clojure]\
+\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Client Wins: CRUD webapp with Javascript image editor [Clojure/Javascript/jQuery]\
+\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Helpdesk email monitor: Monitors an Exchange mailbox for emails, adds an entry in the ticketing system. [Clojure/SOAP/Exchange Web Services API (Java)]\
+\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Helpdesk ticketing/inventory webapp. [C#/ASP.NET MVC/Javascript/jQuery/T-SQL]\
+\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Inventory tracking: Periodically scans the network for changes, integrated with the Intranet, and the ticketing system. [C#/WMI/T-SQL]\
+\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}TAPI Monitor: Windows Service, monitoring a VOIP extention for incoming calls, looks up caller from called id, logs in ticketing system. [TAPI/C#/.NET/WCF]\
+\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Maintenance of the company Intranet [C#/Javascript]\
+\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Building reports on various existing databases. [C#/Crystal Reports/Clojure/Incanter]\
+\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Financial report building [Business Objects/Maconomy AnalytiX]\
+\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Distributed configuration managment of various *NIX based servers. [Puppet]\
+\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Implemented Continuous integration system [Jenkins]\
+\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Implemented Maven build system [Maven/Nexus]\
+\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Various scripting/sysadmin tasks [Bash/Python/*NIX]\
+\s2\sb320\sa180\b\f0\fs28Sales Assistant\b0\par
+\s1\sb240\sa180\b\i\f0\fs24Gamestation, Huddersfield [2005 - 2006]\i0\b0\par
+\pard\sb0\sa0\f0\fs22Duties/responsibilities: staff training, stock control, cashing up, banking, administration, and customer service.\par
+\s2\sb320\sa180\b\f0\fs28Shift Manager\b0\par
+\s1\sb240\sa180\b\i\f0\fs24Allied Leisure, Huddersfield [2001 - 2004]\i0\b0\par
+\pard\sb0\sa0\f0\fs22Duties/responsibilities: staff management, staff training, stock control, ordering, cashing up, banking, loss control, administration, and customer service.\par
+\s2\sb320\sa180\b\f0\fs28Insurance Assistant\b0\par
+\s1\sb240\sa180\b\i\f0\fs24Fartown Insurance, Huddersfield [2000 - 2001]\i0\b0\par
+\pard\sb0\sa0\f0\fs22Duties/responsibilities: customer quotations, renewals, developing and maintaining the company website, other general administration duties.\par
+\s2\sb320\sa180\b\f0\fs28Computer Technician\b0\par
+\s1\sb240\sa180\b\i\f0\fs24Easy Computers, Huddersfield [1998 - 2000]\i0\b0\par
+\pard\sb0\sa0\f0\fs22Duties/responsibilities: build, repair, update and install home computers, on-site network installation and maintenance.\par
 }

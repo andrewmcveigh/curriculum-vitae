@@ -68,16 +68,17 @@
   (sh "pdflatex" "-interaction=batchmode" file))
 
 (defn render-control [start elem end]
-  (str (apply str start elem) end))
+  (let [elem (map #(string/replace % #"\s\s+" " ") elem)]
+    (str (apply str start elem) end)))
 
 (defn render-rtf [element]
   (case (first element)
-    :h1 (render-control "\\s1\\sb0\\sa240\\b\\f0\\fs36" (rest element) "\\b0\\par\n")
-    :h2 (render-control "\\s2\\sb0\\sa240\\b\\f0\\fs30" (rest element) "\\b0\\par\n")
-    :h3 (render-control "\\s1\\sb0\\sa240\\b\\i\\f0\\fs24" (rest element) "\\i0\\b0\\par\n")
+    :h1 (render-control "\\s1\\sb480\\sa240\\b\\f0\\fs32" (rest element) "\\b0\\par\n")
+    :h2 (render-control "\\s2\\sb320\\sa180\\b\\f0\\fs28" (rest element) "\\b0\\par\n")
+    :h3 (render-control "\\s1\\sb240\\sa180\\b\\i\\f0\\fs24" (rest element) "\\i0\\b0\\par\n")
     :ul "\\ls1\\ilvl0\n\\f0\\fs24 \\cf0 \\pard\\tx160\\tx320\\tx1133\\tx1700\\tx2267\\tx2834\\tx3401\\tx3968\\tx4535\\tx5102\\tx5669\\tx6236\\tx6803\\li340\\fi-340\\ql\\qnatural\\pardirnatural\n"
-    :li (render-control "\\sb0\\sa100\\f0\\fs20{\\listtext\\tab\\bullet\\tab}" (rest element) "\\\n")
-    :p  (render-control "\\pard\\sb0\\sa180\\f0\\fs20" (rest element) "\\par\n")
+    :li (render-control "\\sb120\\sa0\\f0\\fs22{\\listtext\\tab\\bullet\\tab}" (rest element) "\\\n")
+    :p  (render-control "\\pard\\sb0\\sa0\\f0\\fs22" (rest element) "\\par\n")
     nil))
 
 (def rtf-header
@@ -86,14 +87,14 @@
 {\\colortbl;\\red255\\green255\\blue255;}
 {\\*\\listtable{\\list\\listtemplateid1\\listhybrid{\\listlevel\\levelnfc23\\levelnfcn23\\leveljc0\\leveljcn0\\levelfollow0\\levelstartat1\\levelspace360\\levelindent0{\\*\\levelmarker \\{disc\\}}{\\leveltext\\leveltemplateid1\\'01\\uc0\\u8226 ;}{\\levelnumbers;}\\fi-360\\li720\\lin720 }{\\listname ;}\\listid1}}
 {\\*\\listoverridetable{\\listoverride\\listid1\\listoverridecount0\\ls1}}
-\\paperw11900\\paperh16840\\margl1440\\margr1440\\vieww9000\\viewh8400\\viewkind0\n")
+\\paperw11900\\paperh16960\\margl1440\\margr1440\\margt200\\margb200\\vieww9000\\viewh8400\\viewkind0\n")
 
 (defn cv->rtf [element]
   (cond
-    (coll? element)    (apply list
-                              (render-rtf (filter #(not (coll? %)) element))
-                              (map cv->rtf (filter coll? element)))
-    :default           element))
+    (coll? element) (apply list
+                           (render-rtf (filter #(not (coll? %)) element))
+                           (map cv->rtf (filter coll? element)))
+    :default        element))
 
 (defn -main [& args]
   (spit "README.md" (cv->syntax info/cv :markdown))
