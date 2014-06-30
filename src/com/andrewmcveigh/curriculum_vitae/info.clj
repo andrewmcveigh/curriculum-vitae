@@ -6,70 +6,84 @@
     [:h2 "Academic Qualifications"
      [:h3 "University of Huddersfield, UK"
       [:ul [:li "BSc Software Development & Multimedia (1st Class), 2008"]]]
-     [:h3 "Huddersfield Technical College"
-      [:ul [:li "Diploma, Access Studies (Computing/Maths/Chemistry), 2004"]]]
-     [:h3 "Salendine Nook High School"
-      [:ul [:li "8 GCSEs (Grades A-C), 1998"]]]]
-    [:h2 "Professional Qualifications"
-     [:h3 "Microsoft Certified Professional (Expired)"
-      [:ul [:li "Networking Essentials, 2000"]]]]]
+     ;; [:h3 "Huddersfield Technical College"
+     ;;  [:ul [:li "Diploma, Access Studies (Computing/Maths/Chemistry), 2004"]]]
+     ;; [:h3 "Salendine Nook High School"
+     ;;  [:ul [:li "8 GCSEs (Grades A-C), 1998"]]]
+     ]
+    ;; [:h2 "Professional Qualifications"
+    ;;  [:h3 "Microsoft Certified Professional (Expired)"
+    ;;   [:ul [:li "Networking Essentials, 2000"]]]]
+    ]
    [:h1 "Technical Summary"
     [:h2 "Languages / Frameworks"
      [:p (apply
-           str
-           (interpose
-             ", "
-             (sort
-               ["Clojure" "ClojureScript" "C#" "Java" "Javascript" "Python"
-                "Bash" "SQL" "HTML" "HAML" "CSS" "SASS" "ASP.NET(MVC)" "MS.NET"
-                "Silverlight" "jQuery" "Django" "Cocoa" "Objective-C"
-                "AppleScript" "Tex"])))]]
+          str
+          (interpose
+           ", "
+           (sort
+            ["Clojure" "ClojureScript" "C" "C#" "Java"
+             "Javascript" "Python" "Bash" "SQL" "HTML" "SVG" "HAML" "CSS"
+             "SASS" ".NET" "Silverlight" "jQuery" "Django" "Cocoa"
+             "Objective-C" "AppleScript" "Tex"])))]]
     [:h2 "Operating Systems, Software & Technologies"
      [:p (apply 
           str
-           (interpose
-             ", "
-             (sort
-               ["Linux" "OS X" "Windows (NT/2000/XP/Server/7)" "Vim"
-                "Visual Studio" "Netbeans" "Eclipse" "Git" "Mercurial"
-                "Subversion" "Maven" "Leiningen" "Puppet" "Apache" "Jenkins"
-                "IIS" "Lighttpd" "Nginx" "MongoDB" "SQLite" "MySQL"
-                "PostgreSQL" "SQL Server" "Flash" "Photoshop" "Illustrator"
-                "VMWare" "MS Exchange"])))]]]
+          (interpose
+           ", "
+           (sort
+            ["Linux" "OS X" "Windows (NT/2000/XP/Server/7)" "Vim"
+             "Visual Studio" "Netbeans" "Eclipse" "Emacs" "Git" "Mercurial"
+             "Subversion" "Maven" "Leiningen" "Puppet" "Pallet" "OpenStack"
+             "Apache" "Jenkins" "IIS" "Lighttpd" "Nginx" "MongoDB" "Riemann"
+             "SQLite" "MySQL" "PostgreSQL" "SQL Server" "Flash"
+             "Photoshop" "Illustrator" "VMWare" "MS Exchange"])))]]]
    [:h1 "Experience"
     [:h2 "Software Developer"
      [:h3 "Interel Group, Brussels  [2008 - Present]"
       [:p "Hired on an IT helpdesk/software development student placement,
           later offered a full-time position as a software developer. Now
           responsible for the design, development, and maintenance of all the
-          group's software infrastructure."]
-      [:ul
-       [:li "Created/Deployed \"Webinars\" system using \"BigBlueButton\" & a
-            custom scheduling webapp. [Java/Clojure]"]
-       [:li "Delivered a customised implementation of an \"XWiki Farm\".
+          group's software infrastructure, including the deployment
+          and automation of key Linux-based services."]
+      [:h4 "Software/Development"
+       [:ul
+        [:li "Financial reporting/forecasting/pipeline tool.
+             [Clojure/ClojureScript]"]
+        [:li "Bespoke app/deploy/automation of software services.
+             [Pallet/Clojure]"]
+        [:li "Re-design/build of bespoke intranet solution.
+             [Clojure/ClojureScript/LDAP]"]
+        [:li "Created/Deployed \"Webinars\" system using \"BigBlueButton\" & a
+             custom scheduling webapp. [Java/Clojure]"]
+        [:li "Delivered a customised implementation of an \"XWiki Farm\".
             [Java/J2EE/Clojure]"]
-       [:li "Client Wins: CRUD webapp with Javascript image editor
-            [Clojure/Javascript/jQuery]"]
-       [:li "Helpdesk email monitor: Monitors an Exchange mailbox for emails,
+        [:li "Helpdesk email monitor: Monitors an Exchange mailbox for emails,
             adds an entry in the ticketing system.
             [Clojure/SOAP/Exchange Web Services API (Java)]"]
-       [:li "Helpdesk ticketing/inventory webapp.
+        [:li "Helpdesk ticketing/inventory webapp.
             [C#/ASP.NET MVC/Javascript/jQuery/T-SQL]"]
-       [:li "Inventory tracking: Periodically scans the network for changes,
+        [:li "Inventory tracking: Periodically scans the network for changes,
             integrated with the Intranet, and the ticketing system.
-        [C#/WMI/T-SQL]"]
-       [:li "TAPI Monitor: Windows Service, monitoring a VOIP extention for
+            [C#/WMI/T-SQL]"]
+        [:li "TAPI Monitor: Windows Service, monitoring a VOIP extention for
             incoming calls, looks up caller from called id, logs in ticketing
             system. [TAPI/C#/.NET/WCF]"]
-       [:li "Maintenance of the company Intranet [C#/Javascript]"]
-       [:li "Building reports on various existing databases.
+        [:li "Building reports on various existing databases.
             [C#/Crystal Reports/Clojure/Incanter]"]
-       [:li "Financial report building [Business Objects/Maconomy AnalytiX]"]
-       [:li "Distributed configuration managment of various *NIX based servers.
-            [Puppet]"]
-       [:li "Implemented Continuous integration system [Jenkins]"]
-       [:li "Implemented Maven build system [Maven/Nexus]"]
-       [:li "Various scripting/sysadmin tasks [Bash/Python/*NIX]"]]]]
+        [:li "Financial report building [Business Objects/Maconomy AnalytiX]"]]]
+      [:h4 "Dev/Ops"
+       [:ul
+        [:li "Automated build/deploy of core Linux-based services.
+             [Linux/Pallet/Clojure]"]
+        [:li "Basic implementation of Riemann monitoring. [Clojure/Riemann]"]
+        [:li "Automated deploy of basic implementation of OpenStack
+             [Pallet/Openstack]"]
+        [:li "Distributed configuration managment of various *NIX based servers.
+             [Puppet/Pallet]"]
+        [:li "Implemented Continuous integration/build/deploy system.
+             [Jenkins/Maven/Nexus/Pallet]"]
+        [:li "Various scripting/sysadmin tasks [Bash/Python/*NIX]"]]]]]
     [:h2 "Sales Assistant"
      [:h3 "Gamestation, Huddersfield [2005 - 2006]"
       [:p "Duties/responsibilities: staff training, stock control, cashing up,

@@ -1,6 +1,5 @@
-(defproject com.andrewmcveigh.curriculum-vitae "0.0.1-SNAPSHOT"
-            :description "TODO: add summary of your project"
-            :dependencies [[org.clojure/clojure "1.4.0"]
-                           [hiccup "1.0.0"]]
-            :profiles {:user {:plugins [[lein-tarsier "0.9.1"]]}}
+(defproject com.andrewmcveigh.curriculum-vitae "0.1.0-SNAPSHOT"
+            :description "Generated CV"
+            :dependencies [[org.clojure/clojure "1.6.0"]
+                           [hiccup "1.0.5"]]
             :main com.andrewmcveigh.curriculum-vitae.core)

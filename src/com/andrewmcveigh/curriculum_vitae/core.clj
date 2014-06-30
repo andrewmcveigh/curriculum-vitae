@@ -1,17 +1,19 @@
 (ns com.andrewmcveigh.curriculum-vitae.core
   (:use
-    [clojure pprint]
-    [clojure.java shell]
-    [hiccup core])
+   [clojure pprint]
+   [clojure.java shell]
+   [hiccup core])
   (:require
-    [com.andrewmcveigh.curriculum-vitae [info :as info]]
-    [clojure [string :as string :only [replace]]]))
+   [com.andrewmcveigh.curriculum-vitae [info :as info]]
+   [clojure [string :as string :only [replace]]]))
 
 (defn render-keyword [k syntax]
   (case k
-    :h1 (str "\n" (case syntax :org "* "   :markdown "\n# "))
-    :h2 (str "\n" (case syntax :org "** "  :markdown "\n## "))
+    :h1 (str "\n" (case syntax :org "* " :markdown "\n# "))
+    :h2 (str "\n" (case syntax :org "** " :markdown "\n## "))
     :h3 (str "\n" (case syntax :org "*** " :markdown "\n### "))
+    :h4 (str "\n" (case syntax :org "**** " :markdown "\n#### "))
+    :h5 (str "\n" (case syntax :org "***** " :markdown "\n##### "))
     :li "\n- "
     :p  "\n"
     nil))
@@ -19,9 +21,9 @@
 (defn cv->syntax [element syntax]
   (apply str
          (cond 
-           (coll? element)    (map #(cv->syntax % syntax) element)
-           (keyword? element) (render-keyword element syntax)
-           :default           element)))
+          (coll? element) (map #(cv->syntax % syntax) element)
+          (keyword? element) (render-keyword element syntax)
+          :default element)))
 
 (defn render-brace [cmd elem]
   (str (apply str \\ cmd "{" elem) "}\n"))
@@ -29,21 +31,22 @@
 (defn render-tex [elems]
   (case (first elems)
     :doc   {:begin (render-brace "begin" "document")
-            :end   (render-brace "end" "document")}
+            :end (render-brace "end" "document")}
     :title "\\maketitle\n"
     :h1    (render-brace "section*" (rest elems))
     :h2    (render-brace "subsection*" (rest elems))
     :h3    (str (apply str "\\subsubsection*{\\emph{" (rest elems)) "}}\n")
+    :h4    (str (apply str "\\paragraph*{\\emph{" (rest elems)) "}}\n")
     :ul    {:begin (render-brace "begin" "itemize")
-            :end   (render-brace "end" "itemize")}
+            :end (render-brace "end" "itemize")}
     :li    (str (apply str "\\item " (rest elems)) "\n")
     :p     (str (apply str (rest elems)) "\n")
     nil))
 
 (defn escape-tex-str [s]
   (string/replace
-    (string/replace s #"([&%$#_\{\}~^\\])" "\\\\$1")
-    #"\"([^\"]*)\"" "``$1''"))
+   (string/replace s #"([&%$#_\{\}~^\\])" "\\\\$1")
+   #"\"([^\"]*)\"" "``$1''"))
 
 (defn filter-elems [element]
   (map #(if (string? %) (escape-tex-str %) %)
@@ -51,11 +54,11 @@
 
 (defn cv->tex [element]
   (let [level (cond 
-                (coll? element)   (apply list
-                                         (render-tex (filter-elems element))
-                                         (map cv->tex (filter coll? element)))
-                (string? element) (escape-tex-str element)
-                :default          element)]
+               (coll? element) (apply list
+                                      (render-tex (filter-elems element))
+                                      (map cv->tex (filter coll? element)))
+               (string? element) (escape-tex-str element)
+               :default element)]
     (if (:begin (first level))
       (str (:begin (first level)) (apply str (rest level)) (:end (first level)))
       (apply str level))))
@@ -63,8 +66,8 @@
 (defn tex->pdf [file]
   (spit file
         (str
-          (slurp "tex-header.tex")
-          (cv->tex [:doc [:title] info/cv])))
+         (slurp "tex-header.tex")
+         (cv->tex [:doc [:title] info/cv])))
   (sh "pdflatex" "-interaction=batchmode" file))
 
 (defn render-control [start elem end]
@@ -91,10 +94,10 @@
 
 (defn cv->rtf [element]
   (cond
-    (coll? element) (apply list
-                           (render-rtf (filter #(not (coll? %)) element))
-                           (map cv->rtf (filter coll? element)))
-    :default        element))
+   (coll? element) (apply list
+                          (render-rtf (filter #(not (coll? %)) element))
+                          (map cv->rtf (filter coll? element)))
+   :default        element))
 
 (defn -main [& args]
   (spit "README.md" (cv->syntax info/cv :markdown))
