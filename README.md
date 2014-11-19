@@ -10,10 +10,10 @@
 # Technical Summary
 
 ## Languages / Frameworks
-.NET, AppleScript, Bash, C, C#, CSS, Clojure, ClojureScript, Cocoa, Django, HAML, HTML, Java, Javascript, Objective-C, Python, SASS, SQL, SVG, Silverlight, Tex, jQuery
+Bash, C, C#, CSS, Clojure, ClojureScript, HAML, HTML, Java, Javascript, Python, SASS, SQL, SVG, Tex, jQuery
 
 ## Operating Systems, Software & Technologies
-Apache, Eclipse, Emacs, Flash, Git, IIS, Illustrator, Jenkins, Leiningen, Lighttpd, Linux, MS Exchange, Maven, Mercurial, MongoDB, MySQL, Netbeans, Nginx, OS X, OpenStack, Pallet, Photoshop, PostgreSQL, Puppet, Riemann, SQL Server, SQLite, Subversion, VMWare, Vim, Visual Studio, Windows (NT/2000/XP/Server/7)
+Apache, Eclipse, Emacs, Flash, Git, IIS, Illustrator, Jenkins, Leiningen, Lighttpd, Linux, MS Exchange, Maven, MongoDB, MySQL, Netbeans, Nginx, OS X, OpenStack, Pallet, Photoshop, PostgreSQL, Puppet, Riemann, SQL Server, SQLite, VMWare, Vim, Visual Studio, Windows (NT/2000/XP/Server/7)
 
 # Experience
 
@@ -28,7 +28,7 @@ Hired on an IT helpdesk/software development student placement,
 
 #### Software/Development
 - Financial reporting/forecasting/pipeline tool.
-             [Clojure/ClojureScript]
+             [Clojure/ClojureScript/React (via OM)]
 - Bespoke app/deploy/automation of software services.
              [Pallet/Clojure]
 - Re-design/build of bespoke intranet solution.

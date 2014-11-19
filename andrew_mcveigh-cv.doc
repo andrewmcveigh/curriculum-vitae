@@ -12,16 +12,16 @@
 \sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}BSc Software Development & Multimedia (1st Class), 2008\
 \s1\sb480\sa240\b\f0\fs32Technical Summary\b0\par
 \s2\sb320\sa180\b\f0\fs28Languages / Frameworks\b0\par
-\pard\sb0\sa0\f0\fs22.NET, AppleScript, Bash, C, C#, CSS, Clojure, ClojureScript, Cocoa, Django, HAML, HTML, Java, Javascript, Objective-C, Python, SASS, SQL, SVG, Silverlight, Tex, jQuery\par
+\pard\sb0\sa0\f0\fs22Bash, C, C#, CSS, Clojure, ClojureScript, HAML, HTML, Java, Javascript, Python, SASS, SQL, SVG, Tex, jQuery\par
 \s2\sb320\sa180\b\f0\fs28Operating Systems, Software & Technologies\b0\par
-\pard\sb0\sa0\f0\fs22Apache, Eclipse, Emacs, Flash, Git, IIS, Illustrator, Jenkins, Leiningen, Lighttpd, Linux, MS Exchange, Maven, Mercurial, MongoDB, MySQL, Netbeans, Nginx, OS X, OpenStack, Pallet, Photoshop, PostgreSQL, Puppet, Riemann, SQL Server, SQLite, Subversion, VMWare, Vim, Visual Studio, Windows (NT/2000/XP/Server/7)\par
+\pard\sb0\sa0\f0\fs22Apache, Eclipse, Emacs, Flash, Git, IIS, Illustrator, Jenkins, Leiningen, Lighttpd, Linux, MS Exchange, Maven, MongoDB, MySQL, Netbeans, Nginx, OS X, OpenStack, Pallet, Photoshop, PostgreSQL, Puppet, Riemann, SQL Server, SQLite, VMWare, Vim, Visual Studio, Windows (NT/2000/XP/Server/7)\par
 \s1\sb480\sa240\b\f0\fs32Experience\b0\par
 \s2\sb320\sa180\b\f0\fs28Software Developer\b0\par
 \s1\sb240\sa180\b\i\f0\fs24Interel Group, Brussels [2008 - Present]\i0\b0\par
 \pard\sb0\sa0\f0\fs22Hired on an IT helpdesk/software development student placement, later offered a full-time position as a software developer. Now responsible for the design, development, and maintenance of all the group's software infrastructure, including the deployment and automation of key Linux-based services.\par
 \ls1\ilvl0
 \f0\fs24 \cf0 \pard\tx160\tx320\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li340\fi-340\ql\qnatural\pardirnatural
-\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Financial reporting/forecasting/pipeline tool. [Clojure/ClojureScript]\
+\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Financial reporting/forecasting/pipeline tool. [Clojure/ClojureScript/React (via OM)]\
 \sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Bespoke app/deploy/automation of software services. [Pallet/Clojure]\
 \sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Re-design/build of bespoke intranet solution. [Clojure/ClojureScript/LDAP]\
 \sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Created/Deployed "Webinars" system using "BigBlueButton" & a custom scheduling webapp. [Java/Clojure]\

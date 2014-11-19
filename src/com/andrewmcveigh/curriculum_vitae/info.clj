@@ -22,10 +22,9 @@
           (interpose
            ", "
            (sort
-            ["Clojure" "ClojureScript" "C" "C#" "Java"
-             "Javascript" "Python" "Bash" "SQL" "HTML" "SVG" "HAML" "CSS"
-             "SASS" ".NET" "Silverlight" "jQuery" "Django" "Cocoa"
-             "Objective-C" "AppleScript" "Tex"])))]]
+            ["Clojure" "ClojureScript" "C" "C#" "Java" "Javascript"
+             "Python" "Bash" "SQL" "HTML" "SVG" "HAML" "CSS" "SASS"
+             "jQuery" "Tex"])))]]
     [:h2 "Operating Systems, Software & Technologies"
      [:p (apply 
           str
@@ -33,11 +32,11 @@
            ", "
            (sort
             ["Linux" "OS X" "Windows (NT/2000/XP/Server/7)" "Vim"
-             "Visual Studio" "Netbeans" "Eclipse" "Emacs" "Git" "Mercurial"
-             "Subversion" "Maven" "Leiningen" "Puppet" "Pallet" "OpenStack"
-             "Apache" "Jenkins" "IIS" "Lighttpd" "Nginx" "MongoDB" "Riemann"
-             "SQLite" "MySQL" "PostgreSQL" "SQL Server" "Flash"
-             "Photoshop" "Illustrator" "VMWare" "MS Exchange"])))]]]
+             "Visual Studio" "Netbeans" "Eclipse" "Emacs" "Git"
+             "Maven" "Leiningen" "Puppet" "Pallet" "OpenStack"
+             "Apache" "Jenkins" "IIS" "Lighttpd" "Nginx" "MongoDB"
+             "Riemann" "SQLite" "MySQL" "PostgreSQL" "SQL Server"
+             "Flash" "Photoshop" "Illustrator" "VMWare" "MS Exchange"])))]]]
    [:h1 "Experience"
     [:h2 "Software Developer"
      [:h3 "Interel Group, Brussels  [2008 - Present]"
@@ -49,7 +48,7 @@
       [:h4 "Software/Development"
        [:ul
         [:li "Financial reporting/forecasting/pipeline tool.
-             [Clojure/ClojureScript]"]
+             [Clojure/ClojureScript/React (via OM)]"]
         [:li "Bespoke app/deploy/automation of software services.
              [Pallet/Clojure]"]
         [:li "Re-design/build of bespoke intranet solution.
