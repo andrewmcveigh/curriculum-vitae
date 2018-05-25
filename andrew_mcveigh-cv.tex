@@ -1,19 +1,16 @@
 \documentclass{article}
 \newcommand{\name}{Andrew Mcveigh}
-\newcommand{\street}{Joseph Stallaertstraat, 34}
-\newcommand{\citycountry}{1180 Brussels, Belgium}
-\newcommand{\phone}{+32.497.471.609}
+\newcommand{\street}{63 Pond Road, Blackheath}
+\newcommand{\citycountry}{London, SE3 0SE}
+\newcommand{\phone}{07751 769 806}
 \newcommand{\email}{me@andrewmcveigh.com}
-\newcommand{\web}{www.andrewmcveigh.com}
-\newcommand{\twitter}{twitter.com/andrewmcveigh}
-\newcommand{\github}{github.com/andrewmcveigh}
 \usepackage{geometry}
-\geometry{a4paper,tmargin=50mm,bmargin=30mm,lmargin=25mm,rmargin=25mm,headheight=30mm,headsep=10mm,footskip=10mm}
+\geometry{a4paper,tmargin=40mm,bmargin=30mm,lmargin=25mm,rmargin=25mm,headheight=20mm,headsep=5mm,footskip=10mm}
 \usepackage{fancyhdr,lastpage}
 \pagestyle{fancyplain}
 \fancyhf{}
 \rhead{\small\name\\\street\\\citycountry\\\phone\\\\\email\\\web\\\twitter\\\github}
-\rfoot{\scriptsize{Page \thepage\ of \pageref{LastPage}}}
+%% \rfoot{\scriptsize{Page \thepage\ of \pageref{LastPage}}}
 \renewcommand\headrulewidth{0pt}
 
 \title{Curriculum Vitae}
@@ -22,80 +19,93 @@
 \begin{document}
 \maketitle
 \section*{Education}
-\subsection*{Academic Qualifications}
-\subsubsection*{\emph{University of Huddersfield, UK}}
+\subsection*{University of Huddersfield, UK}
 \begin{itemize}
 \item BSc Software Development \& Multimedia (1st Class), 2008
 \end{itemize}
-\section*{Technical Summary}
-\subsection*{Languages / Frameworks}
-Bash, C, C\#, CSS, Clojure, ClojureScript, HAML, HTML, Java, Javascript, Python, SASS, SQL, SVG, Tex, jQuery
-\subsection*{Operating Systems, Software \& Technologies}
-Apache, Eclipse, Emacs, Flash, Git, IIS, Illustrator, Jenkins, Leiningen, Lighttpd, Linux, MS Exchange, Maven, MongoDB, MySQL, Netbeans, Nginx, OS X, OpenStack, Pallet, Photoshop, PostgreSQL, Puppet, Riemann, SQL Server, SQLite, VMWare, Vim, Visual Studio, Windows (NT/2000/XP/Server/7)
+\section*{Technologies}
+\subsection*{Languages}
+Bash, CSS, Clojure, ClojureScript, Elm, HTML, Haskell, Idris, Java, Javascript, Python, Ruby, SQL, Scheme
+\subsection*{Other technology}
+AWS, Apache, Aurora, Docker, EC2, ECS, ELK, Git, Kafka, Kinesis, Leiningen, Linux, Maven, MongoDB, MySQL, Nginx, NixOS, PostgreSQL, RabbitMQ, React, Redis, Riemann, S3, SQLite
+\section*{Talks}
+\subsection*{A Dynamic, Statically Typed Contradiction}
+
+Given at ClojureX, London, Dec 2017 and :clojured, Berlin, Feb 2018. The talk
+was about Algorithm-W, how static type-checking (of the Hindley-Milner family)
+works, with an implementation of a Hindley-Milner based type-checker for a
+growing subset of Clojure. The type-checker included features such as
+Haskell-like typeclasses and extensible records.
+\subsection*{Speculative Development}
+
+Given at ClojureX, London, Dec 2016 and :clojured, Berlin, Feb 2017. The talk
+was on the topic of clojure.spec, a data specification DSL for Clojure, and what
+you can do with it if you're willing to bend the rules a bit.
 \section*{Experience}
-\subsection*{Software Developer}
-\subsubsection*{\emph{Interel Group, Brussels  [2008 - Present]}}
-Hired on an IT helpdesk/software development student placement,
-          later offered a full-time position as a software developer. Now
-          responsible for the design, development, and maintenance of all the
-          group's software infrastructure, including the deployment
-          and automation of key Linux-based services.
-\paragraph*{\emph{Software/Development}}
-\begin{itemize}
-\item Financial reporting/forecasting/pipeline tool.
-             [Clojure/ClojureScript/React (via OM)]
-\item Bespoke app/deploy/automation of software services.
-             [Pallet/Clojure]
-\item Re-design/build of bespoke intranet solution.
-             [Clojure/ClojureScript/LDAP]
-\item Created/Deployed ``Webinars'' system using ``BigBlueButton'' \& a
-             custom scheduling webapp. [Java/Clojure]
-\item Delivered a customised implementation of an ``XWiki Farm''.
-            [Java/J2EE/Clojure]
-\item Helpdesk email monitor: Monitors an Exchange mailbox for emails,
-            adds an entry in the ticketing system.
-            [Clojure/SOAP/Exchange Web Services API (Java)]
-\item Helpdesk ticketing/inventory webapp.
-            [C\#/ASP.NET MVC/Javascript/jQuery/T-SQL]
-\item Inventory tracking: Periodically scans the network for changes,
-            integrated with the Intranet, and the ticketing system.
-            [C\#/WMI/T-SQL]
-\item TAPI Monitor: Windows Service, monitoring a VOIP extention for
-            incoming calls, looks up caller from called id, logs in ticketing
-            system. [TAPI/C\#/.NET/WCF]
-\item Building reports on various existing databases.
-            [C\#/Crystal Reports/Clojure/Incanter]
-\item Financial report building [Business Objects/Maconomy AnalytiX]
-\end{itemize}
-\paragraph*{\emph{Dev/Ops}}
-\begin{itemize}
-\item Automated build/deploy of core Linux-based services.
-             [Linux/Pallet/Clojure]
-\item Basic implementation of Riemann monitoring. [Clojure/Riemann]
-\item Automated deploy of basic implementation of OpenStack
-             [Pallet/Openstack]
-\item Distributed configuration managment of various *NIX based servers.
-             [Puppet/Pallet]
-\item Implemented Continuous integration/build/deploy system.
-             [Jenkins/Maven/Nexus/Pallet]
-\item Various scripting/sysadmin tasks [Bash/Python/*NIX]
-\end{itemize}
+\subsection*{Developer: GoMore [2017 - Present]}
+
+GoMore is a peer-to-peer transportation startup based in Copenhagen. The product
+is a web and mobile app enabling customers to share car journeys, to share their
+car by renting it out, and to lease cars that can then be used on the rental
+platform.\\
+\\
+My responsibilities are to lead infrastructure projects as part of the backend
+team, and building out Clojure APIs as part of the broader product team. The
+APIs need to handle many versions at once, as this enables the mobile product to
+move quickly with new or improved features, but existing mobile clients still
+need to be supported. We can only phase out deprecated versions when they are
+seeing little to no traffic, and many users cannot upgrade to new clients due to
+restrictions on the handsets.\\
+\\
+Recent infrastructure highlights include a move of the whole product and
+infrastructure to containers from Elastic Beanstalk, and migrating the main
+database load to an Aurora cluster. We can now better distribute the load to
+read heads, and scale the database horizontally relatively quickly.
+\subsection*{Developer: uSwitch Ltd. [2015 - 2017]}
+\paragraph*{\emph{Platform}}
+
+Looking after the core services running the energy business, including the
+central comparison engine powering the energy website, along with various data
+APIs, processing pipelines, and data delivery to different teams. Building out
+new APIs to support 3rd party integrations for comparison and metadata. Involved
+quite a bit of scaling and performance work to cope with 10+ times normal load
+spikes of traffic and similar rates of sign-ups and sales, due to TV promotion
+of energy switching.
+\paragraph*{\emph{Back office}}
+
+Cross-functional team, involving commercial, operations, financial and software
+development. The role involved maintenance and development of uSwitch Energy's
+backend services responsible for the day-to-day operation of the energy
+business. Negotiating with 3rd parties and commercial around specification and
+implementation of data exchange. Services involved the integration, delivery and
+processing of data to and from 3rd parties, product tracking, financial
+reporting and analysis.
+\paragraph*{\emph{Technology}}
+
+The majority of services were written in Clojure, with some Ruby and a bit of
+tooling in Go. Data was delivered to different teams via Kafka,
+Kinesis/Firehose, RabbitMQ, HTTP or FTP as required. The infrastructure was
+hosted on EC2, mostly using AWS's Elastic Container Service. Logging/monitoring
+with ELK, Cloudwatch (metrics/alarms) and Sensu (alerting).
+\subsection*{Software Developer: Interel Group, Brussels [2008 - 2015]}
+
+Responsible for the design, development, and maintenance of all the group's
+software infrastructure, including the deployment and automation of key
+Linux-based services.\\
+\\
+Applications ranged from internal financial administration and reporting tools,
+project management tools, internal infrastructure monitoring, and data
+exporting, to client-facing CMS building and customisation.\\
+\\
+The services were deployed on in-house servers, bespoke applications and
+services were written mainly in Clojure, with some Java. Web apps were build
+using ClojureScript and React(OM) on the front-end.
 \subsection*{Sales Assistant}
 \subsubsection*{\emph{Gamestation, Huddersfield [2005 - 2006]}}
-Duties/responsibilities: staff training, stock control, cashing up,
-          banking, administration, and customer service.
 \subsection*{Shift Manager}
 \subsubsection*{\emph{Allied Leisure, Huddersfield [2001 - 2004]}}
-Duties/responsibilities: staff management, staff training, stock
-          control, ordering, cashing up, banking, loss control, administration,
-          and customer service.
 \subsection*{Insurance Assistant}
 \subsubsection*{\emph{Fartown Insurance, Huddersfield [2000 - 2001]}}
-Duties/responsibilities: customer quotations, renewals, developing
-          and maintaining the company website, other general administration
-          duties.
 \subsection*{Computer Technician}
 \subsubsection*{\emph{Easy Computers, Huddersfield [1998 - 2000]}}
-Duties/responsibilities: build, repair, update and install home
-          computers, on-site network installation and maintenance.
 \end{document}

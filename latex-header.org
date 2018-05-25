@@ -12,13 +12,11 @@
 #+STYLE: <link rel="stylesheet" type="text/css" href="stylesheet.css" />
 
 #+LaTeX_HEADER: \newcommand{\name}{Andrew Mcveigh}
-#+LaTeX_HEADER: \newcommand{\street}{Joseph Stallaertstraat, 34}
-#+LaTeX_HEADER: \newcommand{\citycountry}{1180 Brussels, Belgium}
-#+LaTeX_HEADER: \newcommand{\phone}{+32.497.471.609}
+#+LaTeX_HEADER: \newcommand{\street}{63 Pond Road, Blackheath}
+#+LaTeX_HEADER: \newcommand{\citycountry}{London, SE3 0SE}
+#+LaTeX_HEADER: \newcommand{\phone}{07751 769 806}
 #+LaTeX_HEADER: \newcommand{\email}{me@andrewmcveigh.com}
 #+LaTeX_HEADER: \newcommand{\web}{www.andrewmcveigh.com}
-#+LaTeX_HEADER: \newcommand{\twitter}{twitter.com/andrewmcveigh}
-#+LaTeX_HEADER: \newcommand{\github}{github.com/andrewmcveigh}
 
 #+LaTeX_HEADER: \usepackage{geometry}
 #+LaTeX_HEADER: \geometry{a4paper,tmargin=50mm,bmargin=30mm,lmargin=25mm,rmargin=25mm,headheight=30mm,headsep=10mm,footskip=10mm}

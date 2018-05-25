@@ -2,90 +2,111 @@
 
 # Education
 
-## Academic Qualifications
-
-### University of Huddersfield, UK
+## University of Huddersfield, UK
 - BSc Software Development & Multimedia (1st Class), 2008
 
-# Technical Summary
+# Technologies
 
-## Languages / Frameworks
-Bash, C, C#, CSS, Clojure, ClojureScript, HAML, HTML, Java, Javascript, Python, SASS, SQL, SVG, Tex, jQuery
+## Languages
+Bash, CSS, Clojure, ClojureScript, Elm, HTML, Haskell, Idris, Java, Javascript, Python, Ruby, SQL, Scheme
 
-## Operating Systems, Software & Technologies
-Apache, Eclipse, Emacs, Flash, Git, IIS, Illustrator, Jenkins, Leiningen, Lighttpd, Linux, MS Exchange, Maven, MongoDB, MySQL, Netbeans, Nginx, OS X, OpenStack, Pallet, Photoshop, PostgreSQL, Puppet, Riemann, SQL Server, SQLite, VMWare, Vim, Visual Studio, Windows (NT/2000/XP/Server/7)
+## Other technology
+AWS, Apache, Aurora, Docker, EC2, ECS, ELK, Git, Kafka, Kinesis, Leiningen, Linux, Maven, MongoDB, MySQL, Nginx, NixOS, PostgreSQL, RabbitMQ, React, Redis, Riemann, S3, SQLite
+
+# Talks
+
+## A Dynamic, Statically Typed Contradiction
+
+Given at ClojureX, London, Dec 2017 and :clojured, Berlin, Feb 2018. The talk
+was about Algorithm-W, how static type-checking (of the Hindley-Milner family)
+works, with an implementation of a Hindley-Milner based type-checker for a
+growing subset of Clojure. The type-checker included features such as
+Haskell-like typeclasses and extensible records.
+
+## Speculative Development
+
+Given at ClojureX, London, Dec 2016 and :clojured, Berlin, Feb 2017. The talk
+was on the topic of clojure.spec, a data specification DSL for Clojure, and what
+you can do with it if you're willing to bend the rules a bit.
 
 # Experience
 
-## Software Developer
+## Developer: GoMore [2017 - Present]
 
-### Interel Group, Brussels  [2008 - Present]
-Hired on an IT helpdesk/software development student placement,
-          later offered a full-time position as a software developer. Now
-          responsible for the design, development, and maintenance of all the
-          group's software infrastructure, including the deployment
-          and automation of key Linux-based services.
+GoMore is a peer-to-peer transportation startup based in Copenhagen. The product
+is a web and mobile app enabling customers to share car journeys, to share their
+car by renting it out, and to lease cars that can then be used on the rental
+platform.\
+\
+My responsibilities are to lead infrastructure projects as part of the backend
+team, and building out Clojure APIs as part of the broader product team. The
+APIs need to handle many versions at once, as this enables the mobile product to
+move quickly with new or improved features, but existing mobile clients still
+need to be supported. We can only phase out deprecated versions when they are
+seeing little to no traffic, and many users cannot upgrade to new clients due to
+restrictions on the handsets.\
+\
+Recent infrastructure highlights include a move of the whole product and
+infrastructure to containers from Elastic Beanstalk, and migrating the main
+database load to an Aurora cluster. We can now better distribute the load to
+read heads, and scale the database horizontally relatively quickly.
 
-#### Software/Development
-- Financial reporting/forecasting/pipeline tool.
-             [Clojure/ClojureScript/React (via OM)]
-- Bespoke app/deploy/automation of software services.
-             [Pallet/Clojure]
-- Re-design/build of bespoke intranet solution.
-             [Clojure/ClojureScript/LDAP]
-- Created/Deployed "Webinars" system using "BigBlueButton" & a
-             custom scheduling webapp. [Java/Clojure]
-- Delivered a customised implementation of an "XWiki Farm".
-            [Java/J2EE/Clojure]
-- Helpdesk email monitor: Monitors an Exchange mailbox for emails,
-            adds an entry in the ticketing system.
-            [Clojure/SOAP/Exchange Web Services API (Java)]
-- Helpdesk ticketing/inventory webapp.
-            [C#/ASP.NET MVC/Javascript/jQuery/T-SQL]
-- Inventory tracking: Periodically scans the network for changes,
-            integrated with the Intranet, and the ticketing system.
-            [C#/WMI/T-SQL]
-- TAPI Monitor: Windows Service, monitoring a VOIP extention for
-            incoming calls, looks up caller from called id, logs in ticketing
-            system. [TAPI/C#/.NET/WCF]
-- Building reports on various existing databases.
-            [C#/Crystal Reports/Clojure/Incanter]
-- Financial report building [Business Objects/Maconomy AnalytiX]
+## Developer: uSwitch Ltd. [2015 - 2017]
 
-#### Dev/Ops
-- Automated build/deploy of core Linux-based services.
-             [Linux/Pallet/Clojure]
-- Basic implementation of Riemann monitoring. [Clojure/Riemann]
-- Automated deploy of basic implementation of OpenStack
-             [Pallet/Openstack]
-- Distributed configuration managment of various *NIX based servers.
-             [Puppet/Pallet]
-- Implemented Continuous integration/build/deploy system.
-             [Jenkins/Maven/Nexus/Pallet]
-- Various scripting/sysadmin tasks [Bash/Python/*NIX]
+#### Platform
+
+Looking after the core services running the energy business, including the
+central comparison engine powering the energy website, along with various data
+APIs, processing pipelines, and data delivery to different teams. Building out
+new APIs to support 3rd party integrations for comparison and metadata. Involved
+quite a bit of scaling and performance work to cope with 10+ times normal load
+spikes of traffic and similar rates of sign-ups and sales, due to TV promotion
+of energy switching.
+
+#### Back office
+
+Cross-functional team, involving commercial, operations, financial and software
+development. The role involved maintenance and development of uSwitch Energy's
+backend services responsible for the day-to-day operation of the energy
+business. Negotiating with 3rd parties and commercial around specification and
+implementation of data exchange. Services involved the integration, delivery and
+processing of data to and from 3rd parties, product tracking, financial
+reporting and analysis.
+
+#### Technology
+
+The majority of services were written in Clojure, with some Ruby and a bit of
+tooling in Go. Data was delivered to different teams via Kafka,
+Kinesis/Firehose, RabbitMQ, HTTP or FTP as required. The infrastructure was
+hosted on EC2, mostly using AWS's Elastic Container Service. Logging/monitoring
+with ELK, Cloudwatch (metrics/alarms) and Sensu (alerting).
+
+## Software Developer: Interel Group, Brussels [2008 - 2015]
+
+Responsible for the design, development, and maintenance of all the group's
+software infrastructure, including the deployment and automation of key
+Linux-based services.\
+\
+Applications ranged from internal financial administration and reporting tools,
+project management tools, internal infrastructure monitoring, and data
+exporting, to client-facing CMS building and customisation.\
+\
+The services were deployed on in-house servers, bespoke applications and
+services were written mainly in Clojure, with some Java. Web apps were build
+using ClojureScript and React(OM) on the front-end.
 
 ## Sales Assistant
 
 ### Gamestation, Huddersfield [2005 - 2006]
-Duties/responsibilities: staff training, stock control, cashing up,
-          banking, administration, and customer service.
 
 ## Shift Manager
 
 ### Allied Leisure, Huddersfield [2001 - 2004]
-Duties/responsibilities: staff management, staff training, stock
-          control, ordering, cashing up, banking, loss control, administration,
-          and customer service.
 
 ## Insurance Assistant
 
 ### Fartown Insurance, Huddersfield [2000 - 2001]
-Duties/responsibilities: customer quotations, renewals, developing
-          and maintaining the company website, other general administration
-          duties.
 
 ## Computer Technician
 
 ### Easy Computers, Huddersfield [1998 - 2000]
-Duties/responsibilities: build, repair, update and install home
-          computers, on-site network installation and maintenance.

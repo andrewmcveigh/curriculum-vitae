@@ -5,51 +5,90 @@
 {\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
 \paperw11900\paperh16960\margl1440\margr1440\margt200\margb200\vieww9000\viewh8400\viewkind0
 \s1\sb480\sa240\b\f0\fs32Education\b0\par
-\s2\sb320\sa180\b\f0\fs28Academic Qualifications\b0\par
-\s1\sb240\sa180\b\i\f0\fs24University of Huddersfield, UK\i0\b0\par
+\s2\sb320\sa180\b\f0\fs28University of Huddersfield, UK\b0\par
 \ls1\ilvl0
 \f0\fs24 \cf0 \pard\tx160\tx320\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li340\fi-340\ql\qnatural\pardirnatural
 \sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}BSc Software Development & Multimedia (1st Class), 2008\
-\s1\sb480\sa240\b\f0\fs32Technical Summary\b0\par
-\s2\sb320\sa180\b\f0\fs28Languages / Frameworks\b0\par
-\pard\sb0\sa0\f0\fs22Bash, C, C#, CSS, Clojure, ClojureScript, HAML, HTML, Java, Javascript, Python, SASS, SQL, SVG, Tex, jQuery\par
-\s2\sb320\sa180\b\f0\fs28Operating Systems, Software & Technologies\b0\par
-\pard\sb0\sa0\f0\fs22Apache, Eclipse, Emacs, Flash, Git, IIS, Illustrator, Jenkins, Leiningen, Lighttpd, Linux, MS Exchange, Maven, MongoDB, MySQL, Netbeans, Nginx, OS X, OpenStack, Pallet, Photoshop, PostgreSQL, Puppet, Riemann, SQL Server, SQLite, VMWare, Vim, Visual Studio, Windows (NT/2000/XP/Server/7)\par
+\s1\sb480\sa240\b\f0\fs32Technologies\b0\par
+\s2\sb320\sa180\b\f0\fs28Languages\b0\par
+\pard\sb0\sa0\f0\fs22Bash, CSS, Clojure, ClojureScript, Elm, HTML, Haskell, Idris, Java, Javascript, Python, Ruby, SQL, Scheme\par
+\s2\sb320\sa180\b\f0\fs28Other technology\b0\par
+\pard\sb0\sa0\f0\fs22AWS, Apache, Aurora, Docker, EC2, ECS, ELK, Git, Kafka, Kinesis, Leiningen, Linux, Maven, MongoDB, MySQL, Nginx, NixOS, PostgreSQL, RabbitMQ, React, Redis, Riemann, S3, SQLite\par
+\s1\sb480\sa240\b\f0\fs32Talks\b0\par
+\s2\sb320\sa180\b\f0\fs28A Dynamic, Statically Typed Contradiction\b0\par
+\pard\sb0\sa0\f0\fs22
+Given at ClojureX, London, Dec 2017 and :clojured, Berlin, Feb 2018. The talk
+was about Algorithm-W, how static type-checking (of the Hindley-Milner family)
+works, with an implementation of a Hindley-Milner based type-checker for a
+growing subset of Clojure. The type-checker included features such as
+Haskell-like typeclasses and extensible records.\par
+\s2\sb320\sa180\b\f0\fs28Speculative Development\b0\par
+\pard\sb0\sa0\f0\fs22
+Given at ClojureX, London, Dec 2016 and :clojured, Berlin, Feb 2017. The talk
+was on the topic of clojure.spec, a data specification DSL for Clojure, and what
+you can do with it if you're willing to bend the rules a bit.\par
 \s1\sb480\sa240\b\f0\fs32Experience\b0\par
-\s2\sb320\sa180\b\f0\fs28Software Developer\b0\par
-\s1\sb240\sa180\b\i\f0\fs24Interel Group, Brussels [2008 - Present]\i0\b0\par
-\pard\sb0\sa0\f0\fs22Hired on an IT helpdesk/software development student placement, later offered a full-time position as a software developer. Now responsible for the design, development, and maintenance of all the group's software infrastructure, including the deployment and automation of key Linux-based services.\par
-\ls1\ilvl0
-\f0\fs24 \cf0 \pard\tx160\tx320\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li340\fi-340\ql\qnatural\pardirnatural
-\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Financial reporting/forecasting/pipeline tool. [Clojure/ClojureScript/React (via OM)]\
-\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Bespoke app/deploy/automation of software services. [Pallet/Clojure]\
-\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Re-design/build of bespoke intranet solution. [Clojure/ClojureScript/LDAP]\
-\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Created/Deployed "Webinars" system using "BigBlueButton" & a custom scheduling webapp. [Java/Clojure]\
-\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Delivered a customised implementation of an "XWiki Farm". [Java/J2EE/Clojure]\
-\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Helpdesk email monitor: Monitors an Exchange mailbox for emails, adds an entry in the ticketing system. [Clojure/SOAP/Exchange Web Services API (Java)]\
-\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Helpdesk ticketing/inventory webapp. [C#/ASP.NET MVC/Javascript/jQuery/T-SQL]\
-\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Inventory tracking: Periodically scans the network for changes, integrated with the Intranet, and the ticketing system. [C#/WMI/T-SQL]\
-\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}TAPI Monitor: Windows Service, monitoring a VOIP extention for incoming calls, looks up caller from called id, logs in ticketing system. [TAPI/C#/.NET/WCF]\
-\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Building reports on various existing databases. [C#/Crystal Reports/Clojure/Incanter]\
-\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Financial report building [Business Objects/Maconomy AnalytiX]\
-\ls1\ilvl0
-\f0\fs24 \cf0 \pard\tx160\tx320\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li340\fi-340\ql\qnatural\pardirnatural
-\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Automated build/deploy of core Linux-based services. [Linux/Pallet/Clojure]\
-\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Basic implementation of Riemann monitoring. [Clojure/Riemann]\
-\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Automated deploy of basic implementation of OpenStack [Pallet/Openstack]\
-\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Distributed configuration managment of various *NIX based servers. [Puppet/Pallet]\
-\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Implemented Continuous integration/build/deploy system. [Jenkins/Maven/Nexus/Pallet]\
-\sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}Various scripting/sysadmin tasks [Bash/Python/*NIX]\
+\s2\sb320\sa180\b\f0\fs28Developer: GoMore [2017 - Present]\b0\par
+\pard\sb0\sa0\f0\fs22
+GoMore is a peer-to-peer transportation startup based in Copenhagen. The product
+is a web and mobile app enabling customers to share car journeys, to share their
+car by renting it out, and to lease cars that can then be used on the rental
+platform.\\par
+\pard\sb0\sa0\f0\fs22\
+My responsibilities are to lead infrastructure projects as part of the backend
+team, and building out Clojure APIs as part of the broader product team. The
+APIs need to handle many versions at once, as this enables the mobile product to
+move quickly with new or improved features, but existing mobile clients still
+need to be supported. We can only phase out deprecated versions when they are
+seeing little to no traffic, and many users cannot upgrade to new clients due to
+restrictions on the handsets.\\par
+\pard\sb0\sa0\f0\fs22\
+Recent infrastructure highlights include a move of the whole product and
+infrastructure to containers from Elastic Beanstalk, and migrating the main
+database load to an Aurora cluster. We can now better distribute the load to
+read heads, and scale the database horizontally relatively quickly.\par
+\s2\sb320\sa180\b\f0\fs28Developer: uSwitch Ltd. [2015 - 2017]\b0\par
+\pard\sb0\sa0\f0\fs22
+Looking after the core services running the energy business, including the
+central comparison engine powering the energy website, along with various data
+APIs, processing pipelines, and data delivery to different teams. Building out
+new APIs to support 3rd party integrations for comparison and metadata. Involved
+quite a bit of scaling and performance work to cope with 10+ times normal load
+spikes of traffic and similar rates of sign-ups and sales, due to TV promotion
+of energy switching.\par
+\pard\sb0\sa0\f0\fs22
+Cross-functional team, involving commercial, operations, financial and software
+development. The role involved maintenance and development of uSwitch Energy's
+backend services responsible for the day-to-day operation of the energy
+business. Negotiating with 3rd parties and commercial around specification and
+implementation of data exchange. Services involved the integration, delivery and
+processing of data to and from 3rd parties, product tracking, financial
+reporting and analysis.\par
+\pard\sb0\sa0\f0\fs22
+The majority of services were written in Clojure, with some Ruby and a bit of
+tooling in Go. Data was delivered to different teams via Kafka,
+Kinesis/Firehose, RabbitMQ, HTTP or FTP as required. The infrastructure was
+hosted on EC2, mostly using AWS's Elastic Container Service. Logging/monitoring
+with ELK, Cloudwatch (metrics/alarms) and Sensu (alerting).\par
+\s2\sb320\sa180\b\f0\fs28Software Developer: Interel Group, Brussels [2008 - 2015]\b0\par
+\pard\sb0\sa0\f0\fs22
+Responsible for the design, development, and maintenance of all the group's
+software infrastructure, including the deployment and automation of key
+Linux-based services.\\par
+\pard\sb0\sa0\f0\fs22\
+Applications ranged from internal financial administration and reporting tools,
+project management tools, internal infrastructure monitoring, and data
+exporting, to client-facing CMS building and customisation.\\par
+\pard\sb0\sa0\f0\fs22\
+The services were deployed on in-house servers, bespoke applications and
+services were written mainly in Clojure, with some Java. Web apps were build
+using ClojureScript and React(OM) on the front-end.\par
 \s2\sb320\sa180\b\f0\fs28Sales Assistant\b0\par
 \s1\sb240\sa180\b\i\f0\fs24Gamestation, Huddersfield [2005 - 2006]\i0\b0\par
-\pard\sb0\sa0\f0\fs22Duties/responsibilities: staff training, stock control, cashing up, banking, administration, and customer service.\par
 \s2\sb320\sa180\b\f0\fs28Shift Manager\b0\par
 \s1\sb240\sa180\b\i\f0\fs24Allied Leisure, Huddersfield [2001 - 2004]\i0\b0\par
-\pard\sb0\sa0\f0\fs22Duties/responsibilities: staff management, staff training, stock control, ordering, cashing up, banking, loss control, administration, and customer service.\par
 \s2\sb320\sa180\b\f0\fs28Insurance Assistant\b0\par
 \s1\sb240\sa180\b\i\f0\fs24Fartown Insurance, Huddersfield [2000 - 2001]\i0\b0\par
-\pard\sb0\sa0\f0\fs22Duties/responsibilities: customer quotations, renewals, developing and maintaining the company website, other general administration duties.\par
 \s2\sb320\sa180\b\f0\fs28Computer Technician\b0\par
 \s1\sb240\sa180\b\i\f0\fs24Easy Computers, Huddersfield [1998 - 2000]\i0\b0\par
-\pard\sb0\sa0\f0\fs22Duties/responsibilities: build, repair, update and install home computers, on-site network installation and maintenance.\par
 }
