@@ -31,7 +31,7 @@ you can do with it if you're willing to bend the rules a bit.
 
 # Experience
 
-## Developer: GoMore [2017 - Present]
+## Developer: GoMore [2017 - 2018]
 
 GoMore is a peer-to-peer transportation startup based in Copenhagen. The product
 is a web and mobile app enabling customers to share car journeys, to share their

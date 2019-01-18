@@ -51,8 +51,7 @@ was on the topic of clojure.spec, a data specification DSL for Clojure, and what
 you can do with it if you're willing to bend the rules a bit."]]]
 
    [:h1 "Experience"
-
-    [:h2 "Developer: GoMore [2017 - Present]"
+    [:h2 "Developer: GoMore [2017 - 2018]"
      [:p "
 GoMore is a peer-to-peer transportation startup based in Copenhagen. The product
 is a web and mobile app enabling customers to share car journeys, to share their

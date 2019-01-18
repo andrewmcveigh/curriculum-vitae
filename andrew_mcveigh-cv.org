@@ -21,7 +21,7 @@ Given at ClojureX, London, Dec 2016 and :clojured, Berlin, Feb 2017. The talk
 was on the topic of clojure.spec, a data specification DSL for Clojure, and what
 you can do with it if you're willing to bend the rules a bit.
 * Experience
-** Developer: GoMore [2017 - Present]
+** Developer: GoMore [2017 - 2018]
 
 GoMore is a peer-to-peer transportation startup based in Copenhagen. The product
 is a web and mobile app enabling customers to share car journeys, to share their
