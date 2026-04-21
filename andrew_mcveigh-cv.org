@@ -4,8 +4,8 @@
 - BSc Software Development & Multimedia (1st Class), 2008
 * Technologies
 ** Languages
-Bash, CSS, Clojure, ClojureScript, Elm, HTML, Haskell, Idris, Java, Javascript, Python, Ruby, Rust, SPARQL, SQL, Scheme
-** Other technologies
+Bash, CSS, Clojure, ClojureScript, Elm, HTML, Haskell, Idris, Java, JavaScript, Python, Ruby, Rust, SPARQL, SQL, Scheme
+** Platforms, Tools & Frameworks
 AWS, Apache, Aurora, Azure, Docker, EC2, ECS, ELK, Geospatial, Git, Google Cloud, Kafka, Kinesis, Linked Data, Linux, Mapbox Vector Tiles, MongoDB, MySQL, Nginx, NixOS, PostgreSQL, RDF, RabbitMQ, React, Redis, Riemann, S3, SQLite, Shapefiles, Svelte
 * Talks
 ** A Dynamic, Statically Typed Contradiction
@@ -25,19 +25,19 @@ you can do with it if you're willing to bend the rules a bit.
 Working as a Consultant delivering solutions across multiple projects for
       government and public sector clients, using a diverse technology stack
       including Python, Java, Clojure, JavaScript, React, Linked Data, RDF,
-      SPARQL. Contributed to the design, development, and implementation of
-      scalable web-based and geospatial data systems.\\
+      SPARQL. Designed, and delivered scalable web-based and geospatial data
+      systems.\\
 Additionally working as a Product Engineer developing audio applications
       in Rust, contributing to system design and implementation with a focus on
       performance, reliability, and efficient low-level processing.
-** Principle Engineer: Swirrl IT LTD ... TPXimpact [2019 - 2024]
+** Principal Engineer: Swirrl IT LTD ... TPXimpact [2019 - 2024]
 Joined Swirrl IT Ltd in 2019; continued in role following acquisition by TPXimpact in 2022.\
 Joined as a Senior Software Engineer and progressed to Principal Software
      Engineer, contributing to core platform infrastructure and leading major
      public sector delivery initiatives.\\
 Worked across a broad range of technologies spanning web and geospatial
       data systems, including JavaScript and React for front-end development,
-      and Java and Clojure for backend services. SPARQL for querying
+      and Java and Clojure for backend services. Used SPARQL for querying
       linked data, and PostgreSQL/PostGIS for data storage and geospatial
       processing. Leveraged cloud platforms such as AWS and Google Cloud for
       deployment and scalability. Worked extensively with geospatial linked-data

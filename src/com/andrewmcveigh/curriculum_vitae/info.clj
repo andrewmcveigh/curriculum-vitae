@@ -21,9 +21,9 @@
           (interpose
            ", "
            (sort
-            ["Clojure" "ClojureScript" "Haskell" "Java" "Javascript" "Python"
+            ["Clojure" "ClojureScript" "Haskell" "Java" "JavaScript" "Python"
              "Ruby" "Bash" "SPARQL" "SQL" "HTML" "CSS" "Idris" "Scheme" "Elm" "Rust"])))]]
-    [:h2 "Other technologies"
+    [:h2 "Platforms, Tools & Frameworks"
      [:p (apply
           str
           (interpose
@@ -64,15 +64,15 @@ you can do with it if you're willing to bend the rules a bit."]]]
       "Working as a Consultant delivering solutions across multiple projects for
       government and public sector clients, using a diverse technology stack
       including Python, Java, Clojure, JavaScript, React, Linked Data, RDF,
-      SPARQL. Contributed to the design, development, and implementation of
-      scalable web-based and geospatial data systems.\\\\"
+      SPARQL. Designed and delivered scalable web-based and geospatial data
+      systems.\\\\"
       ]
      [:p
-      "Additionally working as a Product Engineer developing audio applications
+      "Additionally serving as a Product Engineer developing audio applications
       in Rust, contributing to system design and implementation with a focus on
       performance, reliability, and efficient low-level processing." ] ]
 
-    [:h2 "Principle Engineer: Swirrl IT LTD ... TPXimpact [2019 - 2024]"
+    [:h2 "Principal Engineer: Swirrl IT LTD ... TPXimpact [2019 - 2024]"
      [:p
      "Joined Swirrl IT Ltd in 2019; continued in role following acquisition by TPXimpact in 2022.\\"]
 
@@ -83,7 +83,7 @@ you can do with it if you're willing to bend the rules a bit."]]]
      [:p
       "Worked across a broad range of technologies spanning web and geospatial
       data systems, including JavaScript and React for front-end development,
-      and Java and Clojure for backend services. SPARQL for querying
+      and Java and Clojure for backend services. Used SPARQL for querying
       linked data, and PostgreSQL/PostGIS for data storage and geospatial
       processing. Leveraged cloud platforms such as AWS and Google Cloud for
       deployment and scalability. Worked extensively with geospatial linked-data

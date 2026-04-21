@@ -11,8 +11,8 @@
 \sb120\sa0\f0\fs22{\listtext\tab\bullet\tab}BSc Software Development & Multimedia (1st Class), 2008\
 \s1\sb480\sa240\b\f0\fs32Technologies\b0\par
 \s2\sb320\sa180\b\f0\fs28Languages\b0\par
-\pard\sb0\sa0\f0\fs22Bash, CSS, Clojure, ClojureScript, Elm, HTML, Haskell, Idris, Java, Javascript, Python, Ruby, Rust, SPARQL, SQL, Scheme\par
-\s2\sb320\sa180\b\f0\fs28Other technologies\b0\par
+\pard\sb0\sa0\f0\fs22Bash, CSS, Clojure, ClojureScript, Elm, HTML, Haskell, Idris, Java, JavaScript, Python, Ruby, Rust, SPARQL, SQL, Scheme\par
+\s2\sb320\sa180\b\f0\fs28Platforms, Tools & Frameworks\b0\par
 \pard\sb0\sa0\f0\fs22AWS, Apache, Aurora, Azure, Docker, EC2, ECS, ELK, Geospatial, Git, Google Cloud, Kafka, Kinesis, Linked Data, Linux, Mapbox Vector Tiles, MongoDB, MySQL, Nginx, NixOS, PostgreSQL, RDF, RabbitMQ, React, Redis, Riemann, S3, SQLite, Shapefiles, Svelte\par
 \s1\sb480\sa240\b\f0\fs32Talks\b0\par
 \s2\sb320\sa180\b\f0\fs28A Dynamic, Statically Typed Contradiction\b0\par
@@ -29,12 +29,12 @@ was on the topic of clojure.spec, a data specification DSL for Clojure, and what
 you can do with it if you're willing to bend the rules a bit.\par
 \s1\sb480\sa240\b\f0\fs32Experience\b0\par
 \s2\sb320\sa180\b\f0\fs28Director / Consultant / Product Engineer: Modfacto LTD [2025 - Present]\b0\par
-\pard\sb0\sa0\f0\fs22Working as a Consultant delivering solutions across multiple projects for government and public sector clients, using a diverse technology stack including Python, Java, Clojure, JavaScript, React, Linked Data, RDF, SPARQL. Contributed to the design, development, and implementation of scalable web-based and geospatial data systems.\\\par
+\pard\sb0\sa0\f0\fs22Working as a Consultant delivering solutions across multiple projects for government and public sector clients, using a diverse technology stack including Python, Java, Clojure, JavaScript, React, Linked Data, RDF, SPARQL. Designed, and delivered scalable web-based and geospatial data systems.\\\par
 \pard\sb0\sa0\f0\fs22Additionally working as a Product Engineer developing audio applications in Rust, contributing to system design and implementation with a focus on performance, reliability, and efficient low-level processing.\par
-\s2\sb320\sa180\b\f0\fs28Principle Engineer: Swirrl IT LTD ... TPXimpact [2019 - 2024]\b0\par
+\s2\sb320\sa180\b\f0\fs28Principal Engineer: Swirrl IT LTD ... TPXimpact [2019 - 2024]\b0\par
 \pard\sb0\sa0\f0\fs22Joined Swirrl IT Ltd in 2019; continued in role following acquisition by TPXimpact in 2022.\\par
 \pard\sb0\sa0\f0\fs22Joined as a Senior Software Engineer and progressed to Principal Software Engineer, contributing to core platform infrastructure and leading major public sector delivery initiatives.\\\par
-\pard\sb0\sa0\f0\fs22Worked across a broad range of technologies spanning web and geospatial data systems, including JavaScript and React for front-end development, and Java and Clojure for backend services. SPARQL for querying linked data, and PostgreSQL/PostGIS for data storage and geospatial processing. Leveraged cloud platforms such as AWS and Google Cloud for deployment and scalability. Worked extensively with geospatial linked-data formats and tooling, including processing shapefiles and generating Mapbox Vector Tiles, supporting the development of data-intensive, map-driven applications.\par
+\pard\sb0\sa0\f0\fs22Worked across a broad range of technologies spanning web and geospatial data systems, including JavaScript and React for front-end development, and Java and Clojure for backend services. Used SPARQL for querying linked data, and PostgreSQL/PostGIS for data storage and geospatial processing. Leveraged cloud platforms such as AWS and Google Cloud for deployment and scalability. Worked extensively with geospatial linked-data formats and tooling, including processing shapefiles and generating Mapbox Vector Tiles, supporting the development of data-intensive, map-driven applications.\par
 \s1\sb240\sa180\b\i\f0\fs24Core Infrastructure & Platform\i0\b0\par
 \pard\sb0\sa0\f0\fs22Contributed to and evolved Swirrl’s core infrastructure, improving reliability, scalability, and operational maturity across cloud-hosted data platforms. Played a key role in architectural decisions, deployment automation, and production support for business-critical services.\par
 \s1\sb240\sa180\b\i\f0\fs24Environment Agency Programme – Lead Engineer\i0\b0\par
