@@ -12,8 +12,8 @@
 #+STYLE: <link rel="stylesheet" type="text/css" href="stylesheet.css" />
 
 #+LaTeX_HEADER: \newcommand{\name}{Andrew Mcveigh}
-#+LaTeX_HEADER: \newcommand{\street}{63 Pond Road, Blackheath}
-#+LaTeX_HEADER: \newcommand{\citycountry}{London, SE3 0SE}
+#+LaTeX_HEADER: \newcommand{\street}{4 Rose Mount}
+#+LaTeX_HEADER: \newcommand{\citycountry}{Huddersfaild, HD2 2BU}
 #+LaTeX_HEADER: \newcommand{\phone}{07751 769 806}
 #+LaTeX_HEADER: \newcommand{\email}{me@andrewmcveigh.com}
 #+LaTeX_HEADER: \newcommand{\web}{www.andrewmcveigh.com}

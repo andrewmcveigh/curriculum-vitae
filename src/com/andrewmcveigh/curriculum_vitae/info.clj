@@ -22,18 +22,26 @@
            ", "
            (sort
             ["Clojure" "ClojureScript" "Haskell" "Java" "Javascript" "Python"
-             "Ruby" "Bash" "SQL" "HTML" "CSS" "Idris" "Scheme" "Elm"])))]]
-    [:h2 "Other technology"
+             "Ruby" "Bash" "SPARQL" "SQL" "HTML" "CSS" "Idris" "Scheme" "Elm" "Rust"])))]]
+    [:h2 "Other technologies"
      [:p (apply
           str
           (interpose
            ", "
            (sort
             (distinct
-             ["AWS" "Docker" "Kafka" "RabbitMQ" "Linux" "NixOS" "Git" "Maven"
-              "Leiningen" "Apache" "Nginx" "MongoDB" "Riemann" "SQLite" "MySQL"
-              "PostgreSQL" "Redis" "React" "ECS" "EC2" "Aurora" "S3" "Kinesis"
-              "ELK"]))))]]]
+             ["AWS" "Docker" "Kafka" "RabbitMQ" "Linux" "NixOS" "Git"
+              "Apache" "Nginx" "MongoDB" "Riemann" "SQLite" "MySQL"
+              "PostgreSQL" "Redis" "React" "Svelte" "ECS" "EC2" "Aurora" "S3" "Kinesis"
+              "ELK"
+              "Google Cloud"
+              "Azure"
+              "Geospatial"
+              "Linked Data"
+              "RDF"
+              "Mapbox Vector Tiles"
+              "Shapefiles"
+              ]))))]]]
 
    [:h1 "Talks"
     [:h2 "A Dynamic, Statically Typed Contradiction"
@@ -51,6 +59,76 @@ was on the topic of clojure.spec, a data specification DSL for Clojure, and what
 you can do with it if you're willing to bend the rules a bit."]]]
 
    [:h1 "Experience"
+    [:h2 "Director / Consultant / Product Engineer: Modfacto LTD [2025 - Present]"
+     [:p
+      "Working as a Consultant delivering solutions across multiple projects for
+      government and public sector clients, using a diverse technology stack
+      including Python, Java, Clojure, JavaScript, React, Linked Data, RDF,
+      SPARQL. Contributed to the design, development, and implementation of
+      scalable web-based and geospatial data systems.\\\\"
+      ]
+     [:p
+      "Additionally working as a Product Engineer developing audio applications
+      in Rust, contributing to system design and implementation with a focus on
+      performance, reliability, and efficient low-level processing." ] ]
+
+    [:h2 "Principle Engineer: Swirrl IT LTD ... TPXimpact [2019 - 2024]"
+     [:p
+     "Joined Swirrl IT Ltd in 2019; continued in role following acquisition by TPXimpact in 2022.\\"]
+
+     [:p
+      "Joined as a Senior Software Engineer and progressed to Principal Software
+     Engineer, contributing to core platform infrastructure and leading major
+     public sector delivery initiatives.\\\\"]
+     [:p
+      "Worked across a broad range of technologies spanning web and geospatial
+      data systems, including JavaScript and React for front-end development,
+      and Java and Clojure for backend services. SPARQL for querying
+      linked data, and PostgreSQL/PostGIS for data storage and geospatial
+      processing. Leveraged cloud platforms such as AWS and Google Cloud for
+      deployment and scalability. Worked extensively with geospatial linked-data
+      formats and tooling, including processing shapefiles and generating Mapbox
+      Vector Tiles, supporting the development of data-intensive, map-driven
+      applications."
+      ]
+
+     [:h3 "Core Infrastructure & Platform"]
+     [:p
+      "Contributed to and evolved Swirrl’s core infrastructure, improving reliability,
+      scalability, and operational maturity across cloud-hosted data platforms. Played
+      a key role in architectural decisions, deployment automation, and production
+      support for business-critical services."]
+
+     [:h3 "Environment Agency Programme – Lead Engineer"]
+
+     [:p
+     "Acted as Lead Engineer for a long-running programme with the Environment Agency,
+     providing technical leadership across multiple concurrent projects spanning
+     product development and site reliability."]
+
+     [:h4 "Key contributions included:" ]
+     [:ul
+      [:li "Architectural oversight and engineering direction for several production systems."]
+      [:li "Leading reliability and operational improvements for public-facing data services."]
+      [:li "Rewriting the Catchment Data Explorer to modernise its architecture and improve maintainability and performance."]
+      [:li "Taking the Shoreline Management Plan platform from prototype through to full production, establishing scalable infrastructure and delivery practices."]
+      [:li "Worked closely with client stakeholders to translate complex environmental and policy requirements into robust, production-grade systems."]
+      ]
+     ]
+
+    [:h2 "Senior Software Engineer: Habito [2018]"
+     [:p
+      "Worked primarily on backend systems and a mortgage broker portal using
+      Haskell and PureScript, building and maintaining robust, type-safe
+      services and user-facing functionality. Focused on improving system
+      reliability and correctness within a functional programming paradigm.\\\\"]
+     [:p
+      "A key achievement was diagnosing and resolving a complex, deep-seated bug
+      in the Haskell/PostgreSQL event sourcing persistence layer, restoring data
+      consistency and improving the stability and integrity of the platform’s
+      broker/customer data workflows." ]]
+
+
     [:h2 "Developer: GoMore [2017 - 2018]"
      [:p "
 GoMore is a peer-to-peer transportation startup based in Copenhagen. The product
@@ -59,8 +137,8 @@ car by renting it out, and to lease cars that can then be used on the rental
 platform.\\"]
 
      [:p "\\
-My responsibilities are to lead infrastructure projects as part of the backend
-team, and building out Clojure APIs as part of the broader product team. The
+My responsibilities were to lead infrastructure projects as part of the backend
+team, and build out Clojure APIs as part of the broader product team. The
 APIs need to handle many versions at once, as this enables the mobile product to
 move quickly with new or improved features, but existing mobile clients still
 need to be supported. We can only phase out deprecated versions when they are
@@ -114,27 +192,29 @@ The services were deployed on in-house servers, bespoke applications and
 services were written mainly in Clojure, with some Java. Web apps were build
 using ClojureScript and React(OM) on the front-end."]]
 
-    #_[:h3 "Prior, non-technical work omitted for brevity"
-     [:p "Details available upon request"]]
+;     #_[:h3 "Prior, non-technical work omitted for brevity"
+;      [:p "Details available upon request"]]
 
-    [:h2 "Sales Assistant"
-     [:h3 "Gamestation, Huddersfield [2005 - 2006]"
-      #_[:p "Duties/responsibilities: staff training, stock control, cashing up,
-          banking, administration, and customer service."]]]
+;     [:h2 "Sales Assistant"
+;      [:h3 "Gamestation, Huddersfield [2005 - 2006]"
+;       #_[:p "Duties/responsibilities: staff training, stock control, cashing up,
+;           banking, administration, and customer service."]]]
 
-    [:h2 "Shift Manager"
-     [:h3 "Allied Leisure, Huddersfield [2001 - 2004]"
-      #_[:p "Duties/responsibilities: staff management, staff training, stock
-          control, ordering, cashing up, banking, loss control, administration,
-          and customer service."]]]
+;     [:h2 "Shift Manager"
+;      [:h3 "Allied Leisure, Huddersfield [2001 - 2004]"
+;       #_[:p "Duties/responsibilities: staff management, staff training, stock
+;           control, ordering, cashing up, banking, loss control, administration,
+;           and customer service."]]]
 
-    [:h2 "Insurance Assistant"
-     [:h3 "Fartown Insurance, Huddersfield [2000 - 2001]"
-      #_[:p "Duties/responsibilities: customer quotations, renewals, developing
-          and maintaining the company website, other general administration
-          duties."]]]
+;     [:h2 "Insurance Assistant"
+;      [:h3 "Fartown Insurance, Huddersfield [2000 - 2001]"
+;       #_[:p "Duties/responsibilities: customer quotations, renewals, developing
+;           and maintaining the company website, other general administration
+;           duties."]]]
 
-    [:h2 "Computer Technician"
-     [:h3 "Easy Computers, Huddersfield [1998 - 2000]"
-      #_[:p "Duties/responsibilities: build, repair, update and install home
-          computers, on-site network installation and maintenance."]]]]])
+;     [:h2 "Computer Technician"
+;      [:h3 "Easy Computers, Huddersfield [1998 - 2000]"
+;       #_[:p "Duties/responsibilities: build, repair, update and install home
+;           computers, on-site network installation and maintenance."]]]
+
+    ]])

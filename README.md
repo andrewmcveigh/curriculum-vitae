@@ -8,10 +8,10 @@
 # Technologies
 
 ## Languages
-Bash, CSS, Clojure, ClojureScript, Elm, HTML, Haskell, Idris, Java, Javascript, Python, Ruby, SQL, Scheme
+Bash, CSS, Clojure, ClojureScript, Elm, HTML, Haskell, Idris, Java, Javascript, Python, Ruby, Rust, SPARQL, SQL, Scheme
 
-## Other technology
-AWS, Apache, Aurora, Docker, EC2, ECS, ELK, Git, Kafka, Kinesis, Leiningen, Linux, Maven, MongoDB, MySQL, Nginx, NixOS, PostgreSQL, RabbitMQ, React, Redis, Riemann, S3, SQLite
+## Other technologies
+AWS, Apache, Aurora, Azure, Docker, EC2, ECS, ELK, Geospatial, Git, Google Cloud, Kafka, Kinesis, Linked Data, Linux, Mapbox Vector Tiles, MongoDB, MySQL, Nginx, NixOS, PostgreSQL, RDF, RabbitMQ, React, Redis, Riemann, S3, SQLite, Shapefiles, Svelte
 
 # Talks
 
@@ -31,6 +31,59 @@ you can do with it if you're willing to bend the rules a bit.
 
 # Experience
 
+## Director / Consultant / Product Engineer: Modfacto LTD [2025 - Present]
+Working as a Consultant delivering solutions across multiple projects for
+      government and public sector clients, using a diverse technology stack
+      including Python, Java, Clojure, JavaScript, React, Linked Data, RDF,
+      SPARQL. Contributed to the design, development, and implementation of
+      scalable web-based and geospatial data systems.\\
+Additionally working as a Product Engineer developing audio applications
+      in Rust, contributing to system design and implementation with a focus on
+      performance, reliability, and efficient low-level processing.
+
+## Principle Engineer: Swirrl IT LTD ... TPXimpact [2019 - 2024]
+Joined Swirrl IT Ltd in 2019; continued in role following acquisition by TPXimpact in 2022.\
+Joined as a Senior Software Engineer and progressed to Principal Software
+     Engineer, contributing to core platform infrastructure and leading major
+     public sector delivery initiatives.\\
+Worked across a broad range of technologies spanning web and geospatial
+      data systems, including JavaScript and React for front-end development,
+      and Java and Clojure for backend services. SPARQL for querying
+      linked data, and PostgreSQL/PostGIS for data storage and geospatial
+      processing. Leveraged cloud platforms such as AWS and Google Cloud for
+      deployment and scalability. Worked extensively with geospatial linked-data
+      formats and tooling, including processing shapefiles and generating Mapbox
+      Vector Tiles, supporting the development of data-intensive, map-driven
+      applications.
+
+### Core Infrastructure & Platform
+Contributed to and evolved Swirrl’s core infrastructure, improving reliability,
+      scalability, and operational maturity across cloud-hosted data platforms. Played
+      a key role in architectural decisions, deployment automation, and production
+      support for business-critical services.
+
+### Environment Agency Programme – Lead Engineer
+Acted as Lead Engineer for a long-running programme with the Environment Agency,
+     providing technical leadership across multiple concurrent projects spanning
+     product development and site reliability.
+
+#### Key contributions included:
+- Architectural oversight and engineering direction for several production systems.
+- Leading reliability and operational improvements for public-facing data services.
+- Rewriting the Catchment Data Explorer to modernise its architecture and improve maintainability and performance.
+- Taking the Shoreline Management Plan platform from prototype through to full production, establishing scalable infrastructure and delivery practices.
+- Worked closely with client stakeholders to translate complex environmental and policy requirements into robust, production-grade systems.
+
+## Senior Software Engineer: Habito [2018]
+Worked primarily on backend systems and a mortgage broker portal using
+      Haskell and PureScript, building and maintaining robust, type-safe
+      services and user-facing functionality. Focused on improving system
+      reliability and correctness within a functional programming paradigm.\\
+A key achievement was diagnosing and resolving a complex, deep-seated bug
+      in the Haskell/PostgreSQL event sourcing persistence layer, restoring data
+      consistency and improving the stability and integrity of the platform’s
+      broker/customer data workflows.
+
 ## Developer: GoMore [2017 - 2018]
 
 GoMore is a peer-to-peer transportation startup based in Copenhagen. The product
@@ -38,8 +91,8 @@ is a web and mobile app enabling customers to share car journeys, to share their
 car by renting it out, and to lease cars that can then be used on the rental
 platform.\
 \
-My responsibilities are to lead infrastructure projects as part of the backend
-team, and building out Clojure APIs as part of the broader product team. The
+My responsibilities were to lead infrastructure projects as part of the backend
+team, and build out Clojure APIs as part of the broader product team. The
 APIs need to handle many versions at once, as this enables the mobile product to
 move quickly with new or improved features, but existing mobile clients still
 need to be supported. We can only phase out deprecated versions when they are
@@ -94,19 +147,3 @@ exporting, to client-facing CMS building and customisation.\
 The services were deployed on in-house servers, bespoke applications and
 services were written mainly in Clojure, with some Java. Web apps were build
 using ClojureScript and React(OM) on the front-end.
-
-## Sales Assistant
-
-### Gamestation, Huddersfield [2005 - 2006]
-
-## Shift Manager
-
-### Allied Leisure, Huddersfield [2001 - 2004]
-
-## Insurance Assistant
-
-### Fartown Insurance, Huddersfield [2000 - 2001]
-
-## Computer Technician
-
-### Easy Computers, Huddersfield [1998 - 2000]
