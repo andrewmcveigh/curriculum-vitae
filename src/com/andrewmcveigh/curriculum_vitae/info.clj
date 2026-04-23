@@ -65,7 +65,7 @@ you can do with it if you're willing to bend the rules a bit."]]]
       government and public sector clients, using a diverse technology stack
       including Python, Java, Clojure, JavaScript, React, Linked Data, RDF,
       SPARQL. Designed and delivered scalable web-based and geospatial data
-      systems.\\\\"
+      systems.\\"
       ]
      [:p
       "Additionally serving as a Product Engineer developing audio applications
@@ -79,7 +79,7 @@ you can do with it if you're willing to bend the rules a bit."]]]
      [:p
       "Joined as a Senior Software Engineer and progressed to Principal Software
      Engineer, contributing to core platform infrastructure and leading major
-     public sector delivery initiatives.\\\\"]
+     public sector delivery initiatives.\\"]
      [:p
       "Worked across a broad range of technologies spanning web and geospatial
       data systems, including JavaScript and React for front-end development,
@@ -121,7 +121,7 @@ you can do with it if you're willing to bend the rules a bit."]]]
       "Worked primarily on backend systems and a mortgage broker portal using
       Haskell and PureScript, building and maintaining robust, type-safe
       services and user-facing functionality. Focused on improving system
-      reliability and correctness within a functional programming paradigm.\\\\"]
+      reliability and correctness within a functional programming paradigm.\\"]
      [:p
       "A key achievement was diagnosing and resolving a complex, deep-seated bug
       in the Haskell/PostgreSQL event sourcing persistence layer, restoring data
