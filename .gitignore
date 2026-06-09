@@ -5,3 +5,5 @@ private
 target
 *.log
 *.aux
+bin/
+docker-compose.yml
