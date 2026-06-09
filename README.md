@@ -24,10 +24,10 @@ Riemann, S3, SQLite, Shapefiles, Svelte
 
 Given at ClojureX, London, Dec 2017 and :clojured, Berlin, Feb 2018. The
 talk was about Algorithm-W, how static type-checking (of the
-Hindley-Milner family) works, with an implementation of a Hindley-Milner
-based type-checker for a growing subset of Clojure. The type-checker
-included features such as Haskell-like typeclasses and extensible
-records.
+Hindley-Milner family) works, with an implementation of a
+Hindley-Milner-based type-checker for a growing subset of Clojure. The
+type-checker included features such as Haskell-like typeclasses and
+extensible records.
 
 ## Speculative Development
 
@@ -49,10 +49,10 @@ Additionally acting as a Software Engineer developing audio applications
 in Rust, responsible for system design and implementation with a focus
 on performance, reliability, and efficient low-level processing.
 
-## Principal Engineer: Swirrl IT LTD ... TPXimpact \[2019 - 2024\]
+## Principal Engineer: Swirrl IT LTD / TPXimpact \[2019 - 2024\]
 
-Joined Swirrl IT Ltd in 2019; continued in role following acquisition by
-TPXimpact in 2022.
+Joined Swirrl IT Ltd in 2019; continued in the role following
+acquisition by TPXimpact in 2022.
 
 Joined as a Senior Software Engineer and progressed to Principal
 Software Engineer, contributing to core platform infrastructure and
@@ -61,10 +61,10 @@ leading major public sector delivery initiatives.
 Worked across a broad range of technologies spanning web and geospatial
 data systems, including JavaScript and React for front-end development,
 and Java and Clojure for backend services, Clojure/Python for data
-processing/ETL. Used SPARQL/graph databases linked data, with some use
-of PostgreSQL/PostGIS for data storage and geospatial processing.
+processing/ETL. Used SPARQL/graph databases for linked data, with some
+use of PostgreSQL/PostGIS for data storage and geospatial processing.
 Leveraged cloud platforms such as AWS and Google Cloud for deployment,
-scalability, and cost managment. Worked extensively with geospatial
+scalability, and cost management. Worked extensively with geospatial
 linked-data formats and tooling, including processing shapefiles and
 generating Mapbox Vector Tiles, supporting the development of
 data-intensive, map-driven applications.
@@ -72,9 +72,9 @@ data-intensive, map-driven applications.
 ### Core Infrastructure & Platform
 
 Contributed to and helped evolve Swirrl's core infrastructure, improving
-reliability, and operational maturity across cloud-hosted data
-platforms. Played a role in architectural decisions, deployment
-automation, and production support for business-critical services.
+reliability and operational maturity across cloud-hosted data platforms.
+Played a role in architectural decisions, deployment automation, and
+production support for business-critical services.
 
 ### Environment Agency Programme -- Lead Engineer
 
@@ -128,7 +128,7 @@ Recent infrastructure highlights include a move of the whole product and
 infrastructure to containers from Elastic Beanstalk, and migrating the
 main database load to an Aurora cluster. We can now better distribute
 the load to read heads, and scale the database horizontally relatively
-quickly, whilst cost being generally lower.
+quickly, whilst keeping costs generally lower.
 
 ## Developer: uSwitch Ltd. \[2015 - 2017\]
 
@@ -137,7 +137,7 @@ quickly, whilst cost being generally lower.
 Looking after the core services running the energy business, including
 the central comparison engine powering the energy website, along with
 various data APIs, processing pipelines, and data delivery to different
-teams. Building out new APIs to support 3rd party integrations for
+teams. Building out new APIs to support third-party integrations for
 comparison and metadata. Involved quite a bit of scaling and performance
 work to cope with 10+ times normal load spikes of traffic and similar
 rates of sign-ups and sales, due to TV promotion of energy switching.
@@ -159,7 +159,7 @@ The majority of services were written in Clojure, with some Ruby and a
 bit of tooling in Go. Data was delivered to different teams via Kafka,
 Kinesis/Firehose, RabbitMQ, HTTP or FTP as required. The infrastructure
 was hosted on EC2, mostly using AWS\'s Elastic Container Service.
-Logging/monitoring with ELK, Cloudwatch (metrics/alarms) and Sensu
+Logging/monitoring with ELK, CloudWatch (metrics/alarms) and Sensu
 (alerting).
 
 ## Software Developer: Interel Group, Brussels \[2008 - 2015\]
@@ -174,4 +174,4 @@ data exporting, to client-facing CMS building and customisation.
 
 The services were deployed on in-house servers, bespoke applications and
 services were written mainly in Clojure, with some Java. Web apps were
-build using ClojureScript and React(OM) on the front-end.
+built using ClojureScript and React(OM) on the front-end.
