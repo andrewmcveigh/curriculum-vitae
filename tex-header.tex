@@ -7,11 +7,12 @@
 \usepackage{geometry}
 \geometry{a4paper,tmargin=40mm,bmargin=30mm,lmargin=25mm,rmargin=25mm,headheight=20mm,headsep=5mm,footskip=10mm}
 \usepackage{fancyhdr,lastpage}
-\pagestyle{fancyplain}
-\fancyhf{}
-\rhead{\small\name\\\street\\\citycountry\\\phone\\\email}
-%% \rfoot{\scriptsize{Page \thepage\ of \pageref{LastPage}}}
-\renewcommand\headrulewidth{0pt}
-\title{Curriculum Vitae}
-\author{Andrew Mcveigh}
-\date{}
+\fancypagestyle{firstpage}{
+  \fancyhf{}
+  \rhead{\small\name\\\street\\\citycountry\\\phone\\\email}
+  \renewcommand\headrulewidth{0pt}
+}
+\pagestyle{plain}
+\usepackage{titling}
+\setlength{\droptitle}{-4.0em}
+\postdate{\par\end{center}\vspace{-2.0em}}
